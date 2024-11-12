@@ -1,0 +1,1 @@
+🗣️ Use ChatGPT as your voice coach. Read a short speech or excerpt and ask AI to give feedback on clarity, tone, and any ways to make it more engaging.

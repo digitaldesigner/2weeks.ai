@@ -1,0 +1,1 @@
+🐺 Ask ChatGPT to tell you about the wildlife you might see in the Arctic, especially around January. What unique adaptations have these animals developed for survival in such harsh conditions?

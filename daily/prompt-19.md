@@ -1,0 +1,1 @@
+📸 If you have some photos from previous travels, upload a few to ChatGPT and ask it to suggest ways to improve your travel photography or ideas for shots to capture on your next trip.

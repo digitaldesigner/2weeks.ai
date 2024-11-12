@@ -1,0 +1,1 @@
+🌱🌳 Snap a picture of a tree or plant and let ChatGPT help you identify it and uncover a fun fact about its species.
