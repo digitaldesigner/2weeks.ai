@@ -1,4 +1,4 @@
-# Introduction to ChatGPT
+# Introduction to AI apps
 To get started, download the official ChatGPT app from the App Store and follow the steps to create an account. For the best experience, I recommend subscribing to the **$20**/month Plus Subscription, though it’s not required—most features are available on the free version:
 
 ![image](./assets/images/icon.png)

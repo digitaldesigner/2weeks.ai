@@ -1,4 +1,4 @@
-# MAGA 🇺🇸 (Machine Assisted Growth & Advancement)
+# Fact-checking
 **Fake news!** Today’s lesson focuses on using AI for effective research. In a world where news is distilled into soundbites and major media often lean toward particular narratives — finding a balanced perspective can be challenging. With ChatGPT, we can harness AI to prioritize accuracy, credibility, and a neutral outlook.
 
 Today we’ll learn how to use AI to evaluate sources through examples and evidence, fact-check topics by cross-referencing sources, and use citations effectively. Importantly, we’ll leverage AI’s neutrality for unbiased insights.
@@ -16,7 +16,7 @@ In fast-evolving fields, like technology or science, prioritize recent sources (
 
 ***
 
-## Let’s get controvertial!
+## Let’s get controversial!
 Feel free to grab the nearest hot-button topic from your favourite news outlet. Or perhaps try:
 
 > I heard that crime rates in the UK are rising due to “soft” sentencing. Help me research this topic

@@ -228,44 +228,49 @@ div.loader {
 div.loader .logo {
   width: 140px;
   height: 140px;
-  background: -webkit-linear-gradient(to bottom, #8e2de2, #4a00e0);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #8e2de2, #4a00e0);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-mask: url('../images/squircle.svg') center no-repeat;
+  background: #EC76E5;
+  background: -webkit-linear-gradient(to bottom, #ec76e5, #52116a);
+  background: linear-gradient(to bottom, #ec76e5, #52116a);
+  -webkit-mask: url('../images/hexagon.svg') center no-repeat;
   -webkit-mask-size: 100% 100%;
-  mask: url('../images/squircle.svg') center no-repeat;
+  mask: url('../images/hexagon.svg') center no-repeat;
   mask-size: 100% 100%;
-  -webkit-animation: spin 10s linear infinite;
-  -moz-animation: spin 10s linear infinite;
-  -o-animation: spin 10s linear infinite;
-  animation: spin 10s linear infinite;
+  -webkit-animation: pulsate-bck 2s ease-in-out infinite both;
+  -moz-animation: pulsate-bck 2s ease-in-out infinite both;
+  -o-animation: pulsate-bck 2s ease-in-out infinite both;
+  animation: pulsate-bck 2s ease-in-out infinite both;
 }
 div.loader.ready {
   z-index: 500;
   -webkit-animation: puff-out-center 1s cubic-bezier(0.165, 0.84, 0.44, 1) both 1.5s;
   animation: puff-out-center 1s cubic-bezier(0.165, 0.84, 0.44, 1) both 1.5s;
 }
-@-webkit-keyframes spin {
+@-webkit-keyframes pulsate-bck {
   0% {
-    filter: hue-rotate(0deg);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
   50% {
-    filter: hue-rotate(360deg);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
   }
   100% {
-    filter: hue-rotate(0deg);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
-@keyframes spin {
+@keyframes pulsate-bck {
   0% {
-    filter: hue-rotate(0deg);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
   50% {
-    filter: hue-rotate(360deg);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
   }
   100% {
-    filter: hue-rotate(0deg);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
 ul.training {
@@ -512,10 +517,9 @@ div.prompt.locked .contents::after {
 ul.training li.lesson.intro,
 div.prompt.intro {
   box-shadow: none;
-  background: -webkit-linear-gradient(to bottom, #8e2de2, #4a00e0);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #8e2de2, #4a00e0);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0f2027;
+  background: -webkit-linear-gradient(to bottom, #ec76e5, #52116a, #2a0039);
+  background: linear-gradient(to bottom, #ec76e5, #52116a, #2a0039);
   padding: 30px 0 40px;
   justify-content: center;
   text-align: center;

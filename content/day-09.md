@@ -1,4 +1,4 @@
-# Climbing trees 🌳 travelling India and choosing a dinner spot
+# Making decisions
 Earlier, we talked about how AI can be especially helpful when you have the **beginnings** of a thought, an interest, or an idea — like mapping out a new trip or brainstorming a DIY project. AI can help turn those early sparks into a structured plan by suggesting next steps and refining your ideas. Today, we’re diving deeper into that concept, learning how to use AI to create clearer, more organized plans.
 
 ```

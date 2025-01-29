@@ -1,4 +1,4 @@
-# Getting personal and saving £000's on a fitness coach 💰
+# Adding context
 
 Over time, ChatGPT learns about you and can offer responses that are more personalized. Generally it will pick up stuff like your tone of voice and nature of your topics, but you can also feed it some personal information — which can be very helpful.
 

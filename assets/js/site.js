@@ -3,7 +3,6 @@ $(document).ready(function() {
     const badgeVisibleDuration = 24 * 60 * 60 * 1000; // 24 hours
     //const badgeVisibleDuration = 10 * 60 * 1000; // 10 minutes
     
-
     // Load tasks and check if "New" badge should be displayed
     function loadTasks() {
         $('#todo-list li.lesson').each(function(index, element) {
@@ -270,7 +269,22 @@ $(document).ready(function() {
     });
     
     showDailyPrompt();
+    
     $('#loader').addClass('ready');
+    
+    document.querySelectorAll('.expander').forEach((element) => {
+        let startY = 0;
+        let endY = 0;
+        element.addEventListener('touchstart', (event) => {
+            startY = event.touches[0].clientY;
+        });
+        element.addEventListener('touchend', (event) => {
+            endY = event.changedTouches[0].clientY;
+            if (startY - endY > 30) {
+              $(element).trigger('click');
+            }
+        });
+    });
     
 });
 
@@ -302,3 +316,4 @@ $(document).keydown(function(keyPressed) {
     }
 	}
 });
+

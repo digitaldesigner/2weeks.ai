@@ -1,4 +1,4 @@
-# Roasting your friends, counting birds and dodging fines 🕊
+# Uploading images
 A lesser-known but amazing feature of ChatGPT is its ability to recognize images. Like audio, it’s not something you’ll use every day, but when you do, it’s pretty impressive!
 
 You can access this feature by tapping the `+` icon next to the message box:

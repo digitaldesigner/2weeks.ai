@@ -1,4 +1,4 @@
-# Everyday magic, spiders in hats and submarines 🎩
+# You, enhanced!
 Over the last two weeks, we’ve covered a lot to help you make the most of AI. There’s always more to learn, but much of the magic will reveal itself as you keep exploring. Here’s a quick rundown of a few topics we didn’t dive into, in case you’re ready to go further:
 
 # Translation 🤟🏼

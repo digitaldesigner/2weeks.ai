@@ -1,4 +1,4 @@
-# Preparing for a trip 🌊
+# Making plans
 Since tomorrow you’re heading out on a cruise with a fair bit of free time on your hands, let’s spend today getting ChatGPT set up to make the trip more comfortable and fun.
 
 ## Packing smart 🎒

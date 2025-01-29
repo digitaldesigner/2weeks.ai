@@ -29,9 +29,9 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="2 Weeks AI">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/appicon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/appicon.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/appicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/aindre.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/aindre.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/aindre.png">
   <link rel="stylesheet" href="assets/css/main.css<?=version?>" type="text/css" />
   <meta property="og:url" content="https://2weeks.ai/">
   <meta property="og:type" content="website">
@@ -43,40 +43,27 @@
 <body>
 
 	<div id="loader" class="loader"><div class="logo"></div></div>
-	<ul class="training" id="todo-list">
+	<ul class="training modal" id="todo-list">
     
     <!-- Intro -->
     <li class="lesson intro completed">
-      <h1><span>2 Weeks</span> AI</h1>
+      <h1><span>2</span> Weeks AI</h1>
     </li>
 	 
     <!-- Lessons -->
-	 <?php
-	 	foreach ($markdownFiles as $filename => $content):
+	 <li class='lesson expose' id='lesson-1'>		
+		<?php
+		
+		$allLessons = NULL;
+		
+		foreach ($markdownFiles as $filename => $content):
+			$allLessons .= "\n\n***\n\n".$content;
+		endforeach;
 			
-			$lessonNumber = substr(str_replace(array("day","-",".md"), " ", $filename), 0, -1);
-			$lessonNumber = (int)$lessonNumber;
-			$title = "Day ".$lessonNumber;
-			if($lessonNumber == 0) { $title = "Welcome"; }
-			
-			echo "
-		  
-			<li class='lesson' id='lesson-".$lessonNumber."'>
-				<a href='javascript://' draggable='false' class='expander'>&#215;</a>
-				<span class='new-badge'>New</span>
-				<div class='header'>
-					<h5>".$title."</h5>
-				</div>
-				<textarea class='markdown-file'>".htmlspecialchars($content)."</textarea>
-				<div class='contents overflow'></div>
-				<label>
-					<input type='checkbox' class='complete-task'>
-					<span>Mark as complete</span>
-				</label>
-			</li>
-			";
-	  endforeach;
-	?>
+		?>
+			<textarea class='markdown-file'><?=htmlspecialchars($allLessons)?></textarea>
+			<div class='contents overflow'></div>
+		</li>
 		<li class="blank">&nbsp;</li>
 	</ul>
 

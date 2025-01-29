@@ -1,4 +1,4 @@
-# Writing prompts, plus rockets and a cookie recipe 🚀 🍪
+# Asking good questions
 
 Knowing **when** to engage AI is biggest challenge in using the tool effectively — in this sense you have to unlearn what you know of Google (or finding facts in an encyclopedia).
 

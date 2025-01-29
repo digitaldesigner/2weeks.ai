@@ -1,4 +1,4 @@
-# Talk it out
+# Talking to AI
 We’ve done plenty of writing, now it’s time to start **talking**! 🎙️ Interacting with an AI through speech is a unique and sometimes uncanny experience, so get ready to question reality a little. 🤖 But first, let’s say hello. 👋
 
 ## 🚀 Getting started

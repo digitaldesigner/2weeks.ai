@@ -1,4 +1,4 @@
-# Not your average essay
+# Writing and editing text
 Most discussions about AI focus on its writing capabilities — creating, shortening, translating, or summarizing content. Sure, AI excels at that, but that’s definitely not its most exciting feature 🥱
 
 You **can** ask AI to whip up a poem about geese, write an essay on nuclear fusion, or even generate code for an app. But, let’s face it, you probably don’t need any of that. And even if you did, relying on AI for all your original content isn’t a habit you want to form.

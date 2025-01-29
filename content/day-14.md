@@ -1,5 +1,5 @@
-# AI: Summarize this course! 🤖
-Over the past two weeks, **Andr•AI** has (hopefully) taken you on a journey through the foundational elements of artificial intelligence. Each day we deepened our understanding of AI’s building blocks with real-world applications, ethical considerations, and effective usage techniques. From baking cookies 🍪 to debunking consipiracy theories 🌔... here’s what we covered:
+# Course summary
+Over the past two weeks, this app has (hopefully) taken you on a journey through the foundational elements of artificial intelligence. Each day we deepened our understanding of AI’s building blocks with real-world applications, ethical considerations, and effective usage techniques. From baking cookies 🍪 to debunking conspiracy theories 🌔... here’s what we covered:
 
 ## Getting started
 - Set up ChatGPT and explored essential prompting techniques 🤖.
@@ -34,7 +34,7 @@ As with any tool, the effectiveness comes in **how** you use it — so the real 
 ***
 
 # What’s next?
-Now you’ve covered the fundamentals, it’s time to make using ChatGPT second-nature! The key to success is repetition, so every day for the next month this app will give you a ⭐ **Daily Prompt** ⭐. If you have marked all lessons as complete ✅ then every time you come back you'll see something like this:
+Now you’ve covered the fundamentals, it’s time to make using ChatGPT second-nature! The key to success is repetition, so every day for the next month this app will give you a ⭐ **Daily Prompt** ⭐. If you have marked all lessons as complete ✅ then every time you come back you'll see a prompt:
 
 ![Prompt](./assets/images/daily-prompt.png)
 

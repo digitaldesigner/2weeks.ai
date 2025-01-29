@@ -1,4 +1,4 @@
-# Exploring deeper conversations (without getting too personal)
+# The value of opinions
 
 In the last couple of lessons, we covered how to write effective prompts, the value of follow-up questions, and how to use personal details for better results. These lessons have been very input-focused — today, we’re shifting focus to the **output**.
 

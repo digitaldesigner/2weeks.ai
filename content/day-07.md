@@ -1,4 +1,4 @@
-# Lord of the files 🗂
+# Uploading files
 By the end of our first week, we’ll dive into file uploads, rounding off our exploration of input methods like text, voice, photos, and attachments.
 
 ```
