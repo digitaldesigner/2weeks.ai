@@ -30,9 +30,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="2 Weeks AI">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/appicon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/appicon.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/appicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="assets/css/main.css<?=version?>" type="text/css" />
+	<link rel="stylesheet" href="assets/css/dark.css<?=version?>" type="text/css" media="(prefers-color-scheme: dark)" />
   <meta property="og:url" content="https://2weeks.ai/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="2 Weeks AI">

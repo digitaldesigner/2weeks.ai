@@ -1,0 +1,85 @@
+// TOOLS
+@import "_variables.less";
+@import "_mixins.less";
+
+:root {
+  color-scheme: dark;
+}
+
+html, body { 
+  background:var(--clay-100-dark);
+}
+div.loader {
+  background:var(--clay-100-dark);
+}
+ul.training li.lesson,
+div.prompt {
+  background:var(--base-dark);
+  box-shadow:0 0 0 1px rgba(255,255,255,0.1);
+  
+  .header {
+   h5,h3 {
+     color:var(--clay-300);
+   }
+  }
+
+   .contents {
+    
+     &.overflow { 
+       &::after {
+         background: rgb(0,0,0);
+         background: linear-gradient(0deg, rgba(27,19,65,1) 0%, rgba(27,19,65,0) 100%);
+         border-bottom:5px solid var(--base-dark);
+       }
+     }
+     
+     h1,h2,h3,h4 { 
+      color:var(--base); 
+     }
+     
+     p {
+       color:var(--clay-300);
+       
+       strong {
+         color:var(--base); 
+       }
+     }
+     
+   }
+   
+   label {
+     background:darken(#231955,9%);
+   }
+   
+   a.dismiss {
+     background:darken(#231955,20%);
+     
+     em {
+       color:#ecdbba;
+     }
+   }
+   
+   &.completed {
+     box-shadow:0 0 0 2px var(--green-500);
+     
+     &::before {
+      background-color:var(--green-500); 
+     }
+   }
+   
+   &.expose {
+     &.completed {
+       box-shadow:0 0 0 2px var(--green-500);   
+     }
+     a.expander {
+       background:darken(#231955,20%);
+       color:#ecdbba;
+     }
+   }
+}
+
+
+div.prompt {
+  background:darken(#231955,10%);
+  box-shadow:0 0 0 1px rgba(255,255,255,0.1), 0 0 30px 0px rgba(0,0,0,0.5);
+}
