@@ -1,36 +1,50 @@
-# Asking good questions
+# Writing Prompts
 
-Knowing **when** to engage AI is biggest challenge in using the tool effectively — in this sense you have to unlearn what you know of Google (or finding facts in an encyclopedia).
+The biggest challenge in using AI effectively is knowing **when** to engage with it — because it’s different from what you’re used to with Google or an encyclopedia.
 
-Google is still the right place when you need a **fact**... the name of an actor or the currency used in Iceland. AI is best when you have a **question**, or the beginnings of a thought or interest. Imagine AI as a really smart debating partner.
+Google is great when you need a quick fact, like the name of an actor or the currency used in Iceland. But AI shines when you have a **question** that needs exploration, a vague idea you want to develop, or a topic you’re curious about.
 
-**Try something like:**
+Think of AI as a thought partner — not just a search engine, but a tool to help you brainstorm, learn, and even debate ideas.
 
-> What are the arguments for a better definition of the "welfare of the child" principal in the court system?
+## Prompts
+What you give AI — the questions or instructions you ask — is known as a "prompt". These can be as vague or complex as you like, but they generally resemble questions.
 
-## Follow-on
-The real beauty comes in the follow-up discussion, which is something Google cannot do. For example, in the same chat you might continue talking, as if you would with a person. Remember, you don't need to worry about spelling or formatting, or contain any context from the last thing you said. Let it flow...
+You don't need to worry about spelling or grammar, you don't even need to be polite (you should, of course). A prompt is simply your starting point for a conversation. **Try this:**
 
-> are there any high profile cases where this has been controversial?
+> How might history have changed if the internet existed in the 1800s?
 
-Of course this doesn't need to be about heavy topics, I quite often take the same approach with dinner:
+## Follow-On
+The real power of AI isn’t just in the first response—it’s in the back-and-forth conversation that follows. Think of it less like asking a search engine a question and more like chatting with a knowledgeable friend.
+
+For example, instead of stopping after one response, you can continue the conversation naturally, just like you would with a person:
+
+> Are there any world events that would have been prevented?
+
+Of course, this doesn’t need to be about heavy topics! You can use the same approach for everyday tasks, like adjusting a recipe based on what ingredients you have:
 
 ![Follow on conversations](./assets/images/prompting.jpg)
 
-The words you use to engage with AI is called a **"prompt"** and the way you ask questions is important. You'll develop this as you go, but the key is to be clear with any expectations.
+AI remembers the context within a chat, so you don’t have to rephrase everything from scratch. Just respond naturally, ask follow-up questions, and let the conversation flow!
 
-> explain the speed of light using household objects in a way that a 5 year old could understand
+## Set Expectations
+If you’re looking for a specific kind of answer, it helps to mention this in your prompt. You can guide AI in different ways, such as:
+
+- Asking for a detailed explanation or a short, snappy response
+- Requesting a topic be explained at a specific level of detail (e.g., beginner-friendly or expert-level)
+- Formatting the answer in a certain way, like a list, poem, or step-by-step guide
+
+**Try one of these:**
+
+> Explain the speed of light in a way a 5-year-old could understand
+
+> Summarize the biggest world records broken in 2024 in one paragraph
+
+> Give me three pros and cons of electric cars in a simple list
 
 ***
 
-Throughout the day try and be mindful of any time you have a question — and try to ask GPT. Let me know any interesting questions you come up with. Here are some weird questions I've had recently:
+As you get more comfortable with AI, you’ll start to refine your prompts to get better responses. But for now, just remember — if the answer isn’t quite what you expected, you can always adjust your prompt or ask AI to try again!
 
-- If a rocket was landing on the moon right now, would you see it with the naked eye?
-- Do large animals have large cells and smaller animals smaller cells or do all animals have the same size cells?
-- I've got a Japanese whetstone here. It's got a 1000 and a 3000 grade. Which one do I start with?
-- Austin is swinging in a swing and when his legs are down he goes slow and when his legs are up he goes fast. What physical properties are at play here?
-- Any recipes that can use overripe bananas?
-
-![AI cookie](./assets/images/cookie.jpeg)
-
-They were **really** good. [Recipe](https://chatgpt.com/share/670da6df-bc14-8009-aec2-8a781a9f2899)
+```
+Try prompting "I'm confused"
+```

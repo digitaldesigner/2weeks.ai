@@ -1,22 +1,25 @@
-# Getting started
-👋🏼 Welcome! Each day of this course features a unique topic for you to explore, often paired with a fun task. The lessons are designed to follow a specific order, building in complexity as you go. However, there’s no pressure to stick to a schedule—move at your own pace.
+# About this course
+2Weeks is a simple and enjoyable introduction to Artificial Intelligence (AI) for anyone curious about it but unsure where to start.
 
-Simply click on each card to read through the lesson, and mark it as complete for your own reference. Don’t worry — your progress isn’t tracked or stored! ✅
+Over the next two weeks, you'll explore easy, bite-sized tasks each day, guiding you step by step from complete beginner to confidently using AI in your everyday life. No technical skills needed — just a sense of curiosity!
+ 
+## What to expect
+Each day of this course features a unique topic for you to explore, often paired with a fun task. The lessons are designed to follow in order, building in complexity as you go. However, there's no pressure to stick to a schedule — move at your own pace. 
 
-## Install the app ⬇️
-For convenience, you can install this site as an app on your phone using the **Add to Home Screen** option in your browser.
+Simply click on each card to read through the lesson, and mark it as complete for your own reference. Don't worry — your progress isn't tracked or visible to anyone else! ✅
 
-![Chrome](./assets/images/chrome.png)
-
-If you’re using Chrome, tap this icon at the top of your screen. On Safari, the option is found at the bottom:
+## Tips & tricks 
+For convenience, you can install this site as an app on your phone using a handy bookmark option in your browser. If you're using Safari, tap the share icon at the bottom of your screen:
 
 ![Safari](./assets/images/safari.png)
 
-Clicking the icon will reveal the menu, then select `Add to Home Screen`
+Clicking the icon will reveal the following menu. Select **Add to Home Screen** to turn this into an app. If you can't find the options or use a different browser, [there's more information here](https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/).
 
 ![iOS Sheet](./assets/images/sheet.png)
 
 ***
 
-## Let’s go! 🎉
-When you’re done, click “Mark as complete” to begin ⭐
+## Ready?
+When you’re done with any lesson, click `Mark as complete` to check it off. There's a reward when all lessons have been completed!
+
+Give it a go 👇👇

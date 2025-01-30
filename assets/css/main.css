@@ -723,7 +723,6 @@ div.prompt .contents::after {
 }
 .contents ol li,
 .contents ul li {
-  list-style: disc;
   padding: 0 30px 0 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -733,7 +732,23 @@ div.prompt .contents::after {
   color: var(--charcoal-900);
   line-height: 24px;
 }
-.contents ol li::marker,
+.contents ol li {
+  list-style: auto;
+}
+.contents ol li::marker {
+  color: var(--charcoal-1000);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--charcoal-900);
+  line-height: 24px;
+  font-weight: 500;
+}
+.contents ul li {
+  list-style: disc;
+}
 .contents ul li::marker {
   color: var(--green-500);
 }
@@ -811,13 +826,13 @@ div.prompt .contents::after {
   width: 100%;
   margin: 20px 0 0 0;
   padding: 0;
-  height: 40px;
+  height: 50px;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 22px;
   justify-content: center;
   font-weight: 500;
@@ -853,17 +868,16 @@ div.prompt .contents::after {
   color: var(--charcoal-900);
   line-height: 28px;
   color: var(--green-800);
-  padding: 50px 40px 40px;
+  padding: 50px 40px 50px;
   white-space: normal;
   border-radius: 10px;
   border: 1px solid var(--green-400);
   position: relative;
-}
-.contents pre::before {
-  content: '🔥 ';
+  text-align: center;
+  margin-top: 20px;
 }
 .contents pre::after {
-  content: 'Hot Tip';
+  content: 'Tip';
   position: absolute;
   top: 0;
   left: 50%;
@@ -882,7 +896,7 @@ div.prompt .contents::after {
   border: 2px solid white;
 }
 li.expose .contents p a {
-  color: #304DDB!important;
+  color: var(--purple-500) !important;
 }
 @-webkit-keyframes spin-hue {
   0% {

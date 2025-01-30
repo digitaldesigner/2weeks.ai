@@ -280,7 +280,7 @@ $(document).ready(function() {
         });
         element.addEventListener('touchend', (event) => {
             endY = event.changedTouches[0].clientY;
-            if (startY - endY > 30) {
+            if (startY - endY > 100) {
               $(element).trigger('click');
             }
         });
