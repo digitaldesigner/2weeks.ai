@@ -291,17 +291,27 @@ $(document).ready(function() {
     showDailyPrompt();
         
     document.querySelectorAll('.expander').forEach((element) => {
-        let startY = 0;
-        let endY = 0;
-        element.addEventListener('touchstart', (event) => {
-            startY = event.touches[0].clientY;
-        });
-        element.addEventListener('touchend', (event) => {
-            endY = event.changedTouches[0].clientY;
-            if (startY - endY > 100) {
-              $(element).trigger('click');
-            }
-        });
+      let startX = 0, startY = 0;
+
+      element.addEventListener('touchstart', (event) => {
+        startX = event.touches[0].clientX;
+        startY = event.touches[0].clientY;
+      });
+
+      element.addEventListener('touchend', (event) => {
+        const endX = event.changedTouches[0].clientX;
+        const endY = event.changedTouches[0].clientY;
+
+        const diffY = startY - endY; // positive if it's an upward swipe
+        const diffX = Math.abs(startX - endX);
+
+        // Check if the swipe is mostly vertical:
+        // - Vertical movement must be more than 100 pixels.
+        // - Horizontal movement must be less than 20% of the vertical movement.
+        if (diffY > 100 && diffX < (diffY * 0.2)) {
+          $(element).trigger('click');
+        }
+      });
     });
     
     $('#loader').addClass('ready');
