@@ -11,6 +11,10 @@ html, body {
 }
 div.loader {
   background:var(--clay-100-dark);
+  
+  .shadow {
+    background:rgba(0,0,0,0.8);
+  }
 }
 ul.training li.lesson,
 div.prompt {
@@ -43,12 +47,81 @@ div.prompt {
        strong {
          color:var(--base); 
        }
+       
+       code {
+         border-color:var(--purple-500);
+         background:rgba(0,0,0,0.9);
+         color:var(--clay-100);
+       }
+     }
+     
+     ul,ol {
+       li {
+         color:var(--clay-300);
+         
+         strong {
+           color:var(--base); 
+         }
+        }
+     }
+     
+     ul li {
+       &::marker {
+         color:var(--purple-500);
+       }
+     }
+     ol li {
+       &::marker {
+         color:var(--clay-200);
+       }
+     }
+     
+     pre {
+       background:#210459;
+       border-color:var(--purple-500);
+       color:#d7aaff;
+       
+       &::after {
+         background:var(--purple-500);
+         color:var(--clay-100);
+         border-color:var(--base-dark);
+       }
+       
+       &.done {
+         &::after {
+           background-image:url('../images/check.svg');
+           background-position:center;
+           background-repeat:no-repeat;
+           color:transparent;
+           box-shadow:inset 0 0 0 1px var(--purple-500);
+           background-color:var(--base-dark);
+         }
+       }
+     }
+     blockquote {
+       background:rgba(0,0,0,0.3);
+       border-color:rgba(0,0,0,0.8);
+       color:white;
+       
+       button {
+         background:rgba(0,0,0,0.3);
+         border-color:var(--green-500);
+         color:var(--green-500);
+         
+         &.done {
+           border-color:var(--green-500);
+           content:'\2713';
+           color:transparent;
+           background:url('../images/check.svg') center no-repeat transparent;
+         }
+       }
      }
      
    }
    
    label {
-     background:darken(#231955,9%);
+     background:darken(#231955,2%);
+     color:var(--clay-300);
    }
    
    a.dismiss {
@@ -74,6 +147,10 @@ div.prompt {
      a.expander {
        background:darken(#231955,20%);
        color:#ecdbba;
+     }
+     
+     .contents p a {
+       color:var(--green-500)!important;
      }
    }
 }

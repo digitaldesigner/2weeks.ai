@@ -1,5 +1,5 @@
 <?php
-	define('version','?version=6.3');
+	define('version','?version=1');
 	function getMarkdownFilesContent($directory) {
 	    $files = glob($directory . '/*.md');
 	    $contentArray = [];
@@ -43,7 +43,7 @@
 
 <body>
 
-	<div id="loader" class="loader"><div class="logo"></div></div>
+	<div id="loader" class="loader"><div class="logo"></div><div class="shadow"></div></div>
 	<ul class="training" id="todo-list">
     
     <!-- Intro -->
@@ -60,22 +60,60 @@
 			$title = "Day ".$lessonNumber;
 			if($lessonNumber == 0) { $title = "Welcome"; }
 			
-			echo "
+			if (isset($_GET['debug'])) {
+				echo "
+	  
+				<li class='lesson' id='lesson-".$lessonNumber."'>
+					<a href='javascript://' draggable='false' class='expander'>&#215;</a>
+					<span class='new-badge'>New</span>
+					<div class='header'>
+						<h5>".$title."</h5>
+					</div>
+					<textarea class='markdown-file'>".htmlspecialchars($content)."</textarea>
+					<div class='contents overflow'></div>
+					<label>
+						<input type='checkbox' class='complete-task'>
+						<span>Mark as complete</span>
+					</label>
+				</li>
+				";
+			} else {
+				if($lessonNumber<=2) {
+					echo "
 		  
-			<li class='lesson' id='lesson-".$lessonNumber."'>
-				<a href='javascript://' draggable='false' class='expander'>&#215;</a>
-				<span class='new-badge'>New</span>
-				<div class='header'>
-					<h5>".$title."</h5>
-				</div>
-				<textarea class='markdown-file'>".htmlspecialchars($content)."</textarea>
-				<div class='contents overflow'></div>
-				<label>
-					<input type='checkbox' class='complete-task'>
-					<span>Mark as complete</span>
-				</label>
-			</li>
-			";
+					<li class='lesson' id='lesson-".$lessonNumber."'>
+						<a href='javascript://' draggable='false' class='expander'>&#215;</a>
+						<span class='new-badge'>New</span>
+						<div class='header'>
+							<h5>".$title."</h5>
+						</div>
+						<textarea class='markdown-file'>".htmlspecialchars($content)."</textarea>
+						<div class='contents overflow'></div>
+						<label>
+							<input type='checkbox' class='complete-task'>
+							<span>Mark as complete</span>
+						</label>
+					</li>
+					";
+				} elseif($lessonNumber==3){
+					echo "
+		  
+					<li class='lesson locked' id='lesson-".$lessonNumber."'>
+						<span class='locked-badge'>Coming soon</span>
+						<div class='header'>
+							<h5>".$title."</h5>
+						</div>
+						<textarea class='markdown-file'>".htmlspecialchars($content)."</textarea>
+						<div class='contents overflow'></div>
+						<label>
+							<input type='checkbox' class='complete-task'>
+							<span>Mark as complete</span>
+						</label>
+					</li>
+					";
+				}
+			}
+
 	  endforeach;
 	?>
 		<li class="blank">&nbsp;</li>

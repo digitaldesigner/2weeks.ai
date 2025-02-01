@@ -27,6 +27,9 @@ body {
 div.loader {
   background: var(--clay-100-dark);
 }
+div.loader .shadow {
+  background: rgba(0, 0, 0, 0.8);
+}
 ul.training li.lesson,
 div.prompt {
   background: var(--base-dark);
@@ -62,9 +65,76 @@ ul.training li.lesson .contents p strong,
 div.prompt .contents p strong {
   color: var(--base);
 }
+ul.training li.lesson .contents p code,
+div.prompt .contents p code {
+  border-color: var(--purple-500);
+  background: rgba(0, 0, 0, 0.9);
+  color: var(--clay-100);
+}
+ul.training li.lesson .contents ul li,
+div.prompt .contents ul li,
+ul.training li.lesson .contents ol li,
+div.prompt .contents ol li {
+  color: var(--clay-300);
+}
+ul.training li.lesson .contents ul li strong,
+div.prompt .contents ul li strong,
+ul.training li.lesson .contents ol li strong,
+div.prompt .contents ol li strong {
+  color: var(--base);
+}
+ul.training li.lesson .contents ul li::marker,
+div.prompt .contents ul li::marker {
+  color: var(--purple-500);
+}
+ul.training li.lesson .contents ol li::marker,
+div.prompt .contents ol li::marker {
+  color: var(--clay-200);
+}
+ul.training li.lesson .contents pre,
+div.prompt .contents pre {
+  background: #210459;
+  border-color: var(--purple-500);
+  color: #d7aaff;
+}
+ul.training li.lesson .contents pre::after,
+div.prompt .contents pre::after {
+  background: var(--purple-500);
+  color: var(--clay-100);
+  border-color: var(--base-dark);
+}
+ul.training li.lesson .contents pre.done::after,
+div.prompt .contents pre.done::after {
+  background-image: url('../images/check.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+  box-shadow: inset 0 0 0 1px var(--purple-500);
+  background-color: var(--base-dark);
+}
+ul.training li.lesson .contents blockquote,
+div.prompt .contents blockquote {
+  background: rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+ul.training li.lesson .contents blockquote button,
+div.prompt .contents blockquote button {
+  background: rgba(0, 0, 0, 0.3);
+  border-color: var(--green-500);
+  color: var(--green-500);
+}
+ul.training li.lesson .contents blockquote button.done,
+div.prompt .contents blockquote button.done {
+  border-color: var(--green-500);
+  content: '\2713';
+  color: transparent;
+  background: url('../images/check.svg') center no-repeat transparent;
+}
 ul.training li.lesson label,
 div.prompt label {
-  background: #140f32;
+  background: #20174d;
+  color: var(--clay-300);
 }
 ul.training li.lesson a.dismiss,
 div.prompt a.dismiss {
@@ -90,6 +160,10 @@ ul.training li.lesson.expose a.expander,
 div.prompt.expose a.expander {
   background: #030206;
   color: #ecdbba;
+}
+ul.training li.lesson.expose .contents p a,
+div.prompt.expose .contents p a {
+  color: var(--green-500) !important;
 }
 div.prompt {
   background: #130d2e;

@@ -26,6 +26,16 @@ Let's continue to add anything else you think is relevant. Maybe this:
 
 > I am recovering from a knee replacement last year, so I need to go easy on my knees
 
+
+## Roles
+AI can take on roles to generate more realistic answers.
+
+Bad Prompt: Give me fitness advice.
+Better Prompt: You are a professional fitness coach. Create a simple workout plan for a 50-year-old beginner with knee pain.
+	•	This works for career advice, creative writing, problem-solving, and more.
+
+🔹 Tip: Try “You are a travel guide. Plan a 3-day trip to Paris on a budget.”
+
 ## 🏋🏼‍♀️ Get to the gym!
 Today's task will be to switch things up in your usual gym routine. **We'll get AI to create a workout schedule** then we'll tweak it, remembering that it'll already use some of your personal details from above. 
 

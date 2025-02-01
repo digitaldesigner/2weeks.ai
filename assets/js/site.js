@@ -243,6 +243,26 @@ $(document).ready(function() {
       $(this).addClass('done');
       window.open('chatgpt://');
     });
+    
+    // Click tip to copy quotes
+    $('body').on('click','pre',function(){
+      const codeElement = $(this).find('code');
+      const fullText = codeElement.text().trim();
+      const match = fullText.match(/"([^"]*)"/);
+
+      if (match) {
+        const extractedText = match[1];
+        var tempTextarea = $('<textarea>');
+        $('body').append(tempTextarea);
+        tempTextarea.val(extractedText).select();
+        document.execCommand('copy');
+        tempTextarea.remove();
+        $(this).addClass('done');
+        $(codeElement).select();
+        window.open('chatgpt://');
+      }     
+
+    });
         
     scrollToNextLesson();
     
@@ -269,9 +289,7 @@ $(document).ready(function() {
     });
     
     showDailyPrompt();
-    
-    $('#loader').addClass('ready');
-    
+        
     document.querySelectorAll('.expander').forEach((element) => {
         let startY = 0;
         let endY = 0;
@@ -285,6 +303,8 @@ $(document).ready(function() {
             }
         });
     });
+    
+    $('#loader').addClass('ready');
     
 });
 
