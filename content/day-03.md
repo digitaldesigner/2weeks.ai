@@ -1,67 +1,62 @@
-# Adding context
+# Adding Context
+Each time you talk to AI about a new topic, it’s best to start a fresh chat. This helps AI stay focused and prevents it from mixing topics together. To start a new chat, tap the pencil icon in the top right corner of the screen.
 
-Over time, ChatGPT learns about you and can offer responses that are more personalized. Generally it will pick up stuff like your tone of voice and nature of your topics, but you can also feed it some personal information — which can be very helpful.
+Even if you’re already in the habit of doing this, a good rule of thumb is to open a fresh conversation each time you launch the app. This keeps your chats organized and ensures better responses.
 
-In my case, it knows the boys' names 👦🏼👦🏼 and that I'm gluten intolerant 🍝 which allows it to provide more relevant suggestions, such as offering gluten-free recipe ideas or tailoring responses to include the kid's interests. 
+## Always Learning
+Even though each conversation starts fresh, AI continuously learns from the information you provide, using it to personalize responses unique to you. This might sound a little unsettling at first, but it’s also what makes AI such a powerful personal assistant.
 
-So today we're going to add some basic information about you so that GPTs responses are a bit more useful. Then we're going to explore how ChatGPT handles **tasks** not just questions.
+Even if you never share personal details, AI will naturally adapt to your style over time. For example, if you consistently ask for more detail, the AI will start providing more in-depth responses by default.
 
-## Saying g’day 👋🏼
+Today, we’ll be giving AI a few pieces of personal information to help it craft more relevant responses. You’ll only share what you’re comfortable with — think of it like introducing yourself to someone new over coffee. 
+
+```
+Never share personally identifiable information (PII) online, including with AI. That means things like your Social Security number, passwords, or financial details are off-limits.
+```
+
+For instance, in my case, AI knows my kids’ names and ages, and that I’m gluten intolerant. This allows it to tailor responses, like suggesting gluten-free recipes or activities suited to my children’s ages.
+
+## Nice To Meet You 
+Let’s begin by introducing ourselves to AI. Open a new chat and type:
 
 > I'd like to introduce myself, so you know a bit more about me
 
-You'll see that ChatGPT isn't always going to try and give you an answer, hopefully in response to the above it'll give you an opportunity to elaborate. Today's task (a little later on) will be about your physical health, so we might want to begin by providing some basic details that might be useful in that area. 
+You’ll notice that AI won’t always jump straight into an answer — it may ask follow-up questions instead.
 
-**Now write...**
+Today’s focus will be on health, so consider sharing details that might be relevant in that area. This could include dietary preferences, fitness goals, or any key lifestyle habits. The more relevant context you provide, the better AI can assist you.
 
-> I recently turned 72 but I am in excellent physical health
-
-You should see this next to the reply:
+As you add information, you might notice a `Memory updated` message appear. This is a good sign — it means AI is remembering useful details to personalize its responses. If you ever want to review or delete these memories, just head to your Settings.
 
 ![Memory updated](./assets/images/memory-updated.png)
 
-The `Memory updated` pill shows up whenever ChatGPT stores unique information about you — which is what we want. If you're worried about privacy, this can be managed and deleted later if you need. In contrast to some of the other popular AI tools like Gemini (Google) or Meta AI, ChatGPT is very secure and privacy focussed.
+***
 
-Let's continue to add anything else you think is relevant. Maybe this:
+## Put AI To Work
+Now that AI knows you a little better, it’s time to put it to work by helping you achieve a simple short-term goal. Try one of these prompts to get started (or write your own if you have a specific goal):
 
-> I am recovering from a knee replacement last year, so I need to go easy on my knees
+> Help me plan three healthy dinners for the week.
 
+> Suggest a 10-minute daily exercise routine for beginners.
 
-## Roles
-AI can take on roles to generate more realistic answers.
+> Give me a 5-minute memory-boosting exercise I can do every day.
 
-Bad Prompt: Give me fitness advice.
-Better Prompt: You are a professional fitness coach. Create a simple workout plan for a 50-year-old beginner with knee pain.
-	•	This works for career advice, creative writing, problem-solving, and more.
+You should notice that the response you get is suited to the infromation you provided earlier. This will be the case in any future conversation you have with AI.
 
-🔹 Tip: Try “You are a travel guide. Plan a 3-day trip to Paris on a budget.”
+If the suggestions don’t quite work for you, you can always ask for adjustments! Remembering yesterday’s lesson, AI works best when you set clear expectations — so it’s completely fine to follow up with:
 
-## 🏋🏼‍♀️ Get to the gym!
-Today's task will be to switch things up in your usual gym routine. **We'll get AI to create a workout schedule** then we'll tweak it, remembering that it'll already use some of your personal details from above. 
+- I don’t have eggs
+- That routine looks looks too easy, step it up
+- Those seem too difficult
 
-```
-When asking GPT to create something for you — like a plan or a document — it's useful to be as descriptive as possible about the type of thing you expect. This is the golden rule with AI: if you expect a certain result it's better to be clear than polite.
-```
+## Roleplay
+One of the most powerful ways to get better responses from AI is by asking it to take on a specific role. This helps AI tailor its advice based on a particular perspective or expertise, making the answers more useful to you.
 
-So let's try this: 
+So instead of asking AI a general question, try giving it a role to frame its response. For example:
 
-> Write a gym routine for this week. I plan to go 4 times for 1 hour per session. I'd like to focus on general cardio and leg strength
+**Need fitness advice?** 
+> You’re a personal trainer. Design a 20-minute full-body workout for a beginner.
 
-#### Make it your own
-By now GPT should have written you a fairly comprehensive schedule. But the beauty of AI — as we learned [yesterday](#day-2) — is that you can continue the conversation. So even though it's probably given you a great starting point, you could try these responses:
+**Want to plan a trip?**
+> You are a travel guide. Plan a 3-day trip to Paris on a budget.
 
-- That looks too easy, step it up
-- What is a "Bird-dogs" exercise?
-- I'd like day 3 to involve more core exercises
-- I don't have access to a rowing machine (or, involve more free weights)
-- ...you get the idea!
-
-At some point in the future you might want to come back to this chat by pressing the top left menu and finding the routine.
-
-![Visiting old chats](./assets/images/gym-routine.png)
-
- From here you can give additional feedback to continue the conversation, like this:
-
-> 30 second planks were too easy, can you increase their duration
-
-🎉 **Congrats!** Now you have your own personal trainer.
+Next time you chat with AI, consider what kind of expert you need — it could be a fitness coach, a nutritionist, a historian etc. This is also why starting a new chat for each topic is helpful. It ensures you’re not accidentally stuck in “fitness expert mode” when you’re really looking for travel advice!

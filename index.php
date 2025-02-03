@@ -60,6 +60,8 @@
 			$title = "Day ".$lessonNumber;
 			if($lessonNumber == 0) { $title = "Welcome"; }
 			
+			$latest = 4;
+			
 			if (isset($_GET['debug'])) {
 				echo "
 	  
@@ -78,7 +80,7 @@
 				</li>
 				";
 			} else {
-				if($lessonNumber<=2) {
+				if($lessonNumber<$latest) {
 					echo "
 		  
 					<li class='lesson' id='lesson-".$lessonNumber."'>
@@ -95,7 +97,7 @@
 						</label>
 					</li>
 					";
-				} elseif($lessonNumber==3){
+				} elseif($lessonNumber==($latest+1)){
 					echo "
 		  
 					<li class='lesson locked' id='lesson-".$lessonNumber."'>
