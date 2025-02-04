@@ -16,7 +16,7 @@ Never share personally identifiable information (PII) online, including with AI.
 
 For instance, in my case, AI knows my kids’ names and ages, and that I’m gluten intolerant. This allows it to tailor responses, like suggesting gluten-free recipes or activities suited to my children’s ages.
 
-## Nice To Meet You 
+# An Introduction 👋 
 Let’s begin by introducing ourselves to AI. Open a new chat and type:
 
 > I'd like to introduce myself, so you know a bit more about me
@@ -32,7 +32,7 @@ As you add information, you might notice a `Memory updated` message appear. This
 ***
 
 ## Put AI To Work
-Now that AI knows you a little better, it’s time to put it to work by helping you achieve a simple short-term goal. Try one of these prompts to get started (or write your own if you have a specific goal):
+Now that AI knows you a little better, it’s time to put it to work by helping you achieve a simple short-term goal. **Try one of these prompts** to get started (or write your own if you have a specific goal):
 
 > Help me plan three healthy dinners for the week.
 
@@ -40,16 +40,16 @@ Now that AI knows you a little better, it’s time to put it to work by helping 
 
 > Give me a 5-minute memory-boosting exercise I can do every day.
 
-You should notice that the response you get is suited to the infromation you provided earlier. This will be the case in any future conversation you have with AI.
+You should notice that the response you get is suited to the information you provided earlier. This will be the case in any future conversation you have with AI.
 
 If the suggestions don’t quite work for you, you can always ask for adjustments! Remembering yesterday’s lesson, AI works best when you set clear expectations — so it’s completely fine to follow up with:
 
-- I don’t have eggs
-- That routine looks looks too easy, step it up
-- Those seem too difficult
+- 🥚 “I don’t have eggs.”
+- 🤓 “That routine looks looks too easy, step it up!”
+- 😮‍💨 “Those seem too difficult.”
 
-## Roleplay
-One of the most powerful ways to get better responses from AI is by asking it to take on a specific role. This helps AI tailor its advice based on a particular perspective or expertise, making the answers more useful to you.
+# Assigning Roles
+A powerful way to get better responses from AI is by asking it to take on a specific role. This helps AI tailor its advice based on a particular perspective or expertise, making the answers more useful to you.
 
 So instead of asking AI a general question, try giving it a role to frame its response. For example:
 
@@ -60,3 +60,9 @@ So instead of asking AI a general question, try giving it a role to frame its re
 > You are a travel guide. Plan a 3-day trip to Paris on a budget.
 
 Next time you chat with AI, consider what kind of expert you need — it could be a fitness coach, a nutritionist, a historian etc. This is also why starting a new chat for each topic is helpful. It ensures you’re not accidentally stuck in “fitness expert mode” when you’re really looking for travel advice!
+
+Roles are only limited by your imagination, so you can have some fun:
+
+- 🚀 "You're a time traveler from the year 3025. Describe what people were like 100 years ago."
+- 🫠 "You're a conspiracy theorist. Tell me something about coffee the mainstream media don't want us to know!"
+- 🤖 "You're a corporate buzzword generator. Describe me."

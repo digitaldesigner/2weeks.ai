@@ -24,14 +24,14 @@ AI apps are incredibly simple, usually just consisting of a text box where you c
 
 ***
 
-## Today's Lesson
+# Today's Lesson
 You've done the heavy lifting in installing the app, so today we'll get you familiar with AI in a simple way.
 
 Below is a message to help you understand with what to expect of AI. Throughout this course you’ll see messages like the one below with ideas for things to ask AI — when you tap the `Try` button, the text will be copied to your clipboard. All you have to do is open ChatGPT and paste! **Try this...**
 
 > Tell me an interesting fact about the human body.
 
-Or,
+**Or...**
 
 > Teach me how to make the perfect coffee!
 

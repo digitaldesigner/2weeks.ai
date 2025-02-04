@@ -1,5 +1,5 @@
-# Writing Prompts
-The biggest challenge in using AI effectively is knowing **when** to engage with it — because it’s different from what you’re used to with Google or an encyclopedia.
+# Writing "Prompts"
+The biggest challenge in using AI effectively is knowing **when** to engage with it — because it’s different from what you’re used to with Google.
 
 Google is great when you need a quick **fact**, like the name of an actor or the currency used in Iceland. But AI shines when you have a **question** that needs exploration, a vague idea you want to develop, or a topic you’re curious about.
 
@@ -30,9 +30,9 @@ AI remembers the context within a chat, so you don’t have to rephrase everythi
 ## Set Expectations
 You’ll notice by now that AI tends to answer in very wordy, but quite broad responses. So if you’re looking for a specific kind of answer, or you’d like to dig into a subject, it helps to mention these requirements in your prompt. You can guide AI in different ways, such as:
 
-- Asking for a detailed explanation or a short, snappy response
-- Requesting a topic be explained at a specific level of detail (e.g., beginner-friendly or expert-level)
-- Formatting the answer in a certain way, like a list, poem, or step-by-step guide
+- ✏️ Asking for a detailed explanation or a short, snappy response
+- 👶🏼 Requesting a topic be explained at a specific level of detail (e.g., beginner-friendly or expert-level)
+- ✅ Formatting the answer in a certain way, like a list, poem, or step-by-step guide
 
 **Try one of these:**
 

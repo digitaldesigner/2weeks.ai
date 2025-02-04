@@ -320,14 +320,17 @@ div.prompt {
     }
     
     .contents {
-      filter: blur(3px);
+      filter: blur(5px);
       overflow:hidden;
       max-height:none;
       
+      img {
+        display:none;
+      }
       
-      p {
+      h1,h2,h3,p,li,strong {
         color:var(--charcoal-600);
-        opacity:.9;
+        opacity:.7;
       }
       
       &::after {
@@ -612,6 +615,7 @@ div.prompt .contents {
   }
   h2,h3,h4 {
     margin-top:20px;
+    line-height:26px;
   }
   h4 {
     font-size:18px;

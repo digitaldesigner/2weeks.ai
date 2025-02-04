@@ -524,14 +524,28 @@ div.prompt.locked .header h3 {
 }
 ul.training li.lesson.locked .contents,
 div.prompt.locked .contents {
-  filter: blur(3px);
+  filter: blur(5px);
   overflow: hidden;
   max-height: none;
 }
+ul.training li.lesson.locked .contents img,
+div.prompt.locked .contents img {
+  display: none;
+}
+ul.training li.lesson.locked .contents h1,
+div.prompt.locked .contents h1,
+ul.training li.lesson.locked .contents h2,
+div.prompt.locked .contents h2,
+ul.training li.lesson.locked .contents h3,
+div.prompt.locked .contents h3,
 ul.training li.lesson.locked .contents p,
-div.prompt.locked .contents p {
+div.prompt.locked .contents p,
+ul.training li.lesson.locked .contents li,
+div.prompt.locked .contents li,
+ul.training li.lesson.locked .contents strong,
+div.prompt.locked .contents strong {
   color: var(--charcoal-600);
-  opacity: .9;
+  opacity: .7;
 }
 ul.training li.lesson.locked .contents::after,
 div.prompt.locked .contents::after {
@@ -823,6 +837,7 @@ div.prompt .contents::after {
 .contents h3,
 .contents h4 {
   margin-top: 20px;
+  line-height: 26px;
 }
 .contents h4 {
   font-size: 18px;
