@@ -47,6 +47,13 @@ Besides casual chats, Voice AI has some practical uses too:
 - 🗂 Dictating notes & to-do lists – Quickly turn thoughts into text.
 - 📧 Drafting emails & letters – Speak naturally, then edit the text later.
 - 💡 Capturing ideas – Get your thoughts down before they disappear!
+- 💼 Mock interviews – Practice job interviews, negotiations, or even impersonate historical figures. Remember to set the role!
+- 🧘‍♀️ Mindfulness – Ask AI to speak softly and guide you through relaxation or meditation session.
+- 🌐 Translations – Speak in your native language and have AI respond in your target language. **You’d ask...**
+
+> Translate everything I say into French, but wait for me to finish speaking before translating
+
+***
 
 Voice-to-text has advanced significantly, and AI truly shines in this area. No need to change how you speak — just talk naturally, and let your AI transcription buddy handle the rest!
 
