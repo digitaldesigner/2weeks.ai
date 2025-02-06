@@ -432,6 +432,10 @@ ul.training li.lesson .contents img,
 div.prompt .contents img {
   border-radius: 6px;
 }
+ul.training li.lesson .contents video,
+div.prompt .contents video {
+  width: 100%;
+}
 ul.training li.lesson .contents.overflow,
 div.prompt .contents.overflow {
   max-height: 100%;

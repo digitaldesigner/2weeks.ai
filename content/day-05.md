@@ -1,6 +1,8 @@
 # Talking With AI
 We’ve done plenty of writing — now it’s time to start **talking**! Interacting with an AI through speech is a unique and sometimes uncanny experience, so get ready to question reality a little.
 
+<video playsinline autobuffer autoplay muted loop poster="./assets/video/voice.jpg"><source src="./assets/video/voice.mp4" type="video/mp4"></video>
+
 ## Getting Started 🚀 
 Talking is simple, just follow these steps — and maybe give this article a read before jumping straight in.
 
@@ -44,14 +46,14 @@ Alternatively, try placing an open voice chat on the table while chatting with a
 ## Other Uses
 Besides casual chats, Voice AI has some practical uses too:
 
-- 🗂 Dictating notes & to-do lists – Quickly turn thoughts into text.
-- 📧 Drafting emails & letters – Speak naturally, then edit the text later.
-- 💡 Capturing ideas – Get your thoughts down before they disappear!
-- 💼 Mock interviews – Practice job interviews, negotiations, or even impersonate historical figures. Remember to set the role!
-- 🧘‍♀️ Mindfulness – Ask AI to speak softly and guide you through relaxation or meditation session.
-- 🌐 Translations – Speak in your native language and have AI respond in your target language. **You’d ask...**
+- 🗂 **Dictating notes & lists** – Quickly turn thoughts into text.
+- 📧 **Drafting emails & letters** – Speak naturally, then edit the text later.
+- 💡 **Capturing ideas** – Get your thoughts down before they disappear!
+- 💼 **Mock interviews** – Practice job interviews, negotiations, or even impersonate historical figures.
+- 🧘‍♀️ **Mindfulness** – Ask AI to speak softly and guide you through relaxation or meditation session.
+- 🌐 **Translations** – Speak in your native language and have AI respond in your target language. You’d ask:
 
-> Translate everything I say into French, but wait for me to finish speaking before translating
+> Translate everything I say into French, but wait for me to finish speaking before translating.
 
 ***
 

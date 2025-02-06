@@ -1,5 +1,5 @@
 <?php
-	define('version','?version=1.3');
+	define('version','?version=1.5');
 	function getMarkdownFilesContent($directory) {
 	    $files = glob($directory . '/*.md');
 	    $contentArray = [];
@@ -38,7 +38,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="2 Weeks AI">
   <meta property="og:description" content="A 2 week AI bootcamp, from novice to AI proficient">
-  <meta property="og:image" content="https://ai.buzzusborne.com/assets/images/cover.png">
+  <meta property="og:image" content="https://2weeks.ai/assets/images/cover.png">
 </head>
 
 <body>
