@@ -188,7 +188,11 @@ $(document).ready(function() {
         $('#todo-list').toggleClass('modal');
         $(element).removeAttr('style').toggleClass('expose');
         $(element).find('.contents').stop().delay(300).fadeTo(400,1);
-        history.pushState(null, null, '#' + element[0]['id']);
+        
+        if(element[0]['id'] !== "lesson-0"){
+          history.pushState(null, null, '#' + element[0]['id']);
+        }
+        
       }
     }
 

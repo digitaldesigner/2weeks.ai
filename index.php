@@ -1,5 +1,5 @@
 <?php
-	define('version','?version=1.5');
+	define('version','?version=7');
 	function getMarkdownFilesContent($directory) {
 	    $files = glob($directory . '/*.md');
 	    $contentArray = [];
@@ -37,7 +37,7 @@
   <meta property="og:url" content="https://2weeks.ai/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="2 Weeks AI">
-  <meta property="og:description" content="A 2 week AI bootcamp, from novice to AI proficient">
+  <meta property="og:description" content="A 2 week AI online course, from novice to AI proficient">
   <meta property="og:image" content="https://2weeks.ai/assets/images/cover.png">
 </head>
 
@@ -60,7 +60,7 @@
 			$title = "Day ".$lessonNumber;
 			if($lessonNumber == 0) { $title = "Welcome"; }
 			
-			$latest = 6;
+			$latest = 8;
 			
 			if($lessonNumber<$latest) {
 				echo "

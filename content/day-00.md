@@ -11,11 +11,15 @@ Simply click on each card to read through the lesson, and mark it as complete fo
 ## Tips & tricks 
 For convenience, you can install this site as an app on your phone using a handy bookmark option in your browser. If you're using Safari, tap the share icon at the bottom of your screen:
 
-![Safari](./assets/images/safari.png)
+![Safari](./assets/images/share-location-safari.png)
+
+Or in Chrome:
+
+![Chrome](./assets/images/share-location-chrome.png)
 
 Clicking the icon will reveal the following menu. Select **Add to Home Screen** to turn this into an app. If you can't find the options or use a different browser, [there's more information here](https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/).
 
-![iOS Sheet](./assets/images/sheet.png)
+![iOS Sheet](./assets/images/homescreen-location.png)
 
 ***
 

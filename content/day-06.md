@@ -1,55 +1,66 @@
-# Uploading images
-A lesser-known but amazing feature of ChatGPT is its ability to recognize images. Like audio, it’s not something you’ll use every day, but when you do, it’s pretty impressive!
+# Using Images
+AI isn’t just for text and voice — it can also analyze images and provide insights, making it a powerful tool for a wide range of tasks. While you may not use this feature every day, when you do, it’s pretty impressive!
 
-You can access this feature by tapping the `+` icon next to the message box:
+To add or upload an image, simply tap the plus (+) icon next to the message box. The options are similar across desktop and mobile AI tools.
 
-![Plus menu](./assets/images/ui-plus.png)
-
-This menu gives you three options:
-
-![Upload options](./assets/images/ui-upload-options.png)
+![Plus menu](./assets/images/upload-action.png)
 
 - 📷 **Camera** - Snap a picture with your camera
 - 🖼 **Photos** - Choose an image from your phone’s gallery
 - 🗂 **Files** - Upload any file (we’ll cover this in a later lesson)
 
-## Yes, but why? 🤔
-**Great question!** You might not use this feature often, but when you do, it’s a lifesaver. Here are a few ways I’ve used it:
+Once uploaded, you can ask AI to describe, analyze, or even edit the image.
 
-### To double check...
+## When To Use Images With AI
+AI can analyze images almost as well as you can—and in some cases, even better. If an image contains text, AI can read it. If it includes people or a specific context, AI will try to understand the situation. You can then use this information as a foundation for more insightful questions.
+
+Here are some real-world ways to use image uploads in your day-to-day life:
+
+### Decypher Confusing Instructions
+Ever stared at a parking sign for way too long, trying to figure out if you’re about to get fined? AI can help! By uploading an image and adding relevant context—like the current day and time, and how long you plan to park — AI can quickly break it down for you:
 
 ![Parking sign](./assets/images/parking.png)
 
-Remembering to add context (previously discussed) such as the current day and time — AI can help you quickly decipher something you might want a second opinion on. Like avoiding a fine.
+This technique works in many situations where instructions aren’t clear:
 
-### To rebuild 🥠
-![Fortune](./assets/images/fortune.png)
+- 🧃 **Ingredient Checks** – Upload a food package label and ask AI if it aligns with your dietary preferences or goals.
+- 🛠 **Assembly Instructions** — If a DIY manual is confusing, AI can simplify the steps or explain unclear symbols.
+- 🖌️ **Paint Coverage** – Snap a picture of a paint can label and ask AI how much wall space it can cover.
 
-This saved a tantrum in our house, but this technique can also be used to get tips on how to fix an object without first trying to explain what that object is.
+### To Re-Build & Fix Things
+AI can analyze a broken or disassembled object and suggest ways to fix, reassemble, or repurpose it. This is especially useful when showing is easier than explaining. Here are a few ways to use this feature:
 
-### To DIY 🧰
-For example you could take a photo of your bike’s disc brake and ask AI how to stop the pads from rubbing. Or photograph a loose valve and ask AI what tools you’ll need to replace it. I’ve also used it while in the hardware store to quick-calculate things, like photographing a roll of tape and asking “will this cover a 2x2m plank of wood?”
+- 🥗 **Recreate a Dish** — Snap a tasty meal and ask, “How can I make this at home?”.
+- 🧱 **Lego Ideas** — Photograph a pile of bricks and ask, “What creative things can I build with these?”.
+- 🛠 **Fixing Gadgets** — Show a broken device or tool and ask for repair suggestions.
 
-### Or...
-I find this genuinely funny, perhaps more than I should. But you can use AI to “roast” photos of you and your friends — all in good humour of course!
+### To Solve Mysteries
+Sometimes AI can do things that are difficult — or even impossible — for the human eye alone. By analyzing images, AI can reveal details, extract hidden information, or process visuals in ways we can’t.
 
-![Roast dinner](./assets/images/roast.png)
+Here are some powerful ways AI can help:
 
-We’ve also done this to create 1920’s gangster names for people in old family photos. Surprisingly hilarious.
+- 📜 **Decipher Ancient or Unreadable Text** — Upload a faded document or ancient script, and AI can attempt to translate or restore the writing.
+- 🌸 **Identify Plants & Flowers** — Not sure what you’re looking at? Snap a picture of a plant, and AI can tell you what it is and even provide care tips.
+- 🔢 **Count Large Groups of Objects** — Need a fast way to tally items in a crowded image? AI can scan and count them for you.
+- 🔎 **Enhance & Unblur Photos** — AI can often restore or sharpen blurry images, bringing out details you couldn’t see before.
+- 🌍 **Instant Translation** — Upload a street sign or restaurant menu and get AI to translate it instantly.
+
+### To Describe
+AI can accurately describe images, but how does that help in everyday life? Here are some creative and practical ways to use this feature:
+
+- 📊 **Break Down a Chart or Graph** — Upload a confusing graph and ask, “What does this data mean in simple terms?”
+- 🖼 **Generate the Perfect Caption** — Upload a photo and let AI craft a funny, poetic, or clever Instagram caption.
+- 📸 **Improve Your Photography** — Share one of your recent photos and ask AI for tips on composition, lighting, and technique.
 
 ***
 
-Of course, AI can do things that humans struggle with, or cannot do. I once photographed a flock of birds and asked AI to estimate how many there were. Not easy for our human eyes, but AI nailed it.
+## Or... Have Some Fun!
+If you haven’t experimented with AI’s image capabilities yet, now’s the time to get creative in a low-effort way. Try uploading a recent photo of yourself and asking:
 
-## (Un)Blurred lines
-In this app, you’ll notice a blurred card on the home screen. Save it to your Photos, then upload it to ChatGPT and ask:
+> Describe this picture in the funniest way possible.
 
-> Describe this photo. Can you transcribe the text?
+![Funny description](./assets/images/funny-description.png)
 
-Long-tap on the picture below, select `Save to Photos` and then use the 🖼 icon in ChatGPT to upload it:
+Other variations on this are to **roast your friends** — where you upload a group photo and ask AI for the most ridiculous captions. You could assign 1920s gangster names to old family pictures, or ask AI to write a diary entry from your pet’s perspective based on their expression.
 
-![Blurred photo](./assets/images/blurred.png)
-
-Let me know what you find! 🤓
-
-
+Happy snapping!

@@ -21,7 +21,7 @@ For example, instead of stopping after one response, you can continue the conver
 
 Of course, this doesn't need to be about heavy topics! You can use the same approach for everyday tasks, like adjusting a recipe based on what ingredients you have:
 
-![Follow on conversations](./assets/images/prompting.jpg)
+![Follow on conversations](./assets/images/follow-on-conversations.png)
 
 AI remembers the context within a chat, so you don’t have to rephrase everything from scratch. Just respond naturally, ask follow-up questions, and let the conversation flow! You can even challenge or ask for elborations, just like you would in a human conversation, **like:**
 

@@ -34,7 +34,7 @@ You’ll notice how surprisingly human-like AI’s responses are — and you mig
 - 🔇 **Silence is okay** — No need to fill every pause. If there’s a break in conversation, AI will simply wait until you’re ready to speak again.
 - 👩🏼 **Change your settings** — You can even change the voice if you’d like a different feel to your conversation. Just tap the settings icon at the top right:
 
-![Choose a voice](./assets/images/voice-type.png)
+![Choose a voice](./assets/images/voice-settings-location.png)
 
 # Today’s Task
 There’s no structured task today — just get comfortable talking to ChatGPT. Try using it at some point during your day, perhaps for a quick, lighthearted question, like:
