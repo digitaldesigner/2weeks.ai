@@ -83,6 +83,9 @@ $(document).ready(function() {
         if(!savedDate){
           localStorage.setItem("startDate", today);
           savedDate = today;
+          
+          fathom.trackEvent('course_complete');
+          
         } else { 
           savedDate = new Date(savedDate);
           savedDate.setHours(0, 0, 0, 0);
@@ -166,7 +169,9 @@ $(document).ready(function() {
             setTimeout(shoot, 100);
             setTimeout(shoot, 200);
             
+            
             var element = $(this).closest('li.lesson');
+            fathom.trackEvent('lesson_complete');
             element.removeClass('expose').find('.contents').scrollTop(0);
             $('body').removeClass('expose');
             $('#todo-list').toggleClass('modal');
@@ -210,8 +215,10 @@ $(document).ready(function() {
         
         if(element[0]['id'] !== "lesson-0"){
           history.pushState(null, null, '#' + element[0]['id']);
+          fathom.trackEvent('lesson_open');
+        } else {
+          fathom.trackEvent('intro_open');
         }
-        
       }
     }
 
@@ -271,6 +278,7 @@ $(document).ready(function() {
       tempTextarea.remove();
       $(this).addClass('done');
       window.open('chatgpt://');
+      fathom.trackEvent('gpt shortcut');
     });
     
     // Click tip to copy quotes
