@@ -1,4 +1,27 @@
-# Making plans
+# Making Plans
+Planning can be tough. Whether it’s **big plans** like vacations or events, **long-term goals** like fitness or learning, or **immediate tasks** like work deadlines, grocery trips, or simply structuring your day, keeping everything in order can feel overwhelming. AI can be a valuable partner in cutting through the chaos, helping you stay organized, and making smarter decisions.
+
+In every lesson so far, we’ve started a new chat to keep the context fresh and avoid confusing AI. But today’s lesson is a great example of when continuing an existing conversation can actually be helpful. By keeping your planning discussions in the same chat, AI can remember details, refine ideas, and build on past suggestions—just like a real assistant.
+
+Today we’ll start with a new chat, but if you revisit this lesson later, you can find and continue the conversation by pressing the sidebar icon:
+
+![Show all chats](./assets/images/side-drawer-location.png)
+
+From here you an jump to a previous chat and continue the conversation:
+
+![Browse previous chats](./assets/images/side-drawer.png)
+
+## Getting Started
+
+
+	Can you help me create a flexible itinerary for {trip/event}? I want a balance of {relaxation/adventure/productivity}.
+
+- local recommendations (remember that AI knows local stuff)
+
+***
+
+# ORIGINAL
+
 Since tomorrow you’re heading out on a cruise with a fair bit of free time on your hands, let’s spend today getting ChatGPT set up to make the trip more comfortable and fun.
 
 ## Packing smart 🎒

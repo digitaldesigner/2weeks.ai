@@ -1,14 +1,20 @@
-# About this course
+# Start Here 🏁
 **2 Weeks AI** is a simple and enjoyable introduction to Artificial Intelligence (AI) for anyone curious about it but unsure where to start.
+
+![Video](./assets/images/dummy-video.png)
+
+*Intro video to come*
+
+<!--<div class="video"><video playsinline autobuffer controls muted loop><source src="./assets/video/app-tour.mp4" type="video/mp4"></video></div>-->
 
 Over the next two weeks, you'll explore easy, bite-sized tasks each day, guiding you step by step from complete beginner to confidently using AI in your everyday life. No technical skills needed — just a sense of curiosity!
  
-# What to expect
+# What to Expect
 Each day of this course features a unique topic for you to explore, often paired with a fun task. The lessons are designed to follow in order, building in complexity as you go. However, there's no pressure to stick to a schedule — move at your own pace. 
 
 Simply click on each card to read through the lesson, and mark it as complete for your own reference. Don't worry — your progress isn't tracked or visible to anyone else! ✅
 
-## Tips & tricks 
+## Bookmark This Course 
 For convenience, you can install this site as an app on your phone using a handy bookmark option in your browser. If you're using Safari, tap the share icon at the bottom of your screen:
 
 ![Safari](./assets/images/share-location-safari.png)

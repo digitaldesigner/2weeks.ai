@@ -14,7 +14,10 @@
   --charcoal-1000: #253642;
   --base: #FFF;
   --base-dark: #1b1341;
+  --purple-100: #f9f6ff;
+  --purple-300: #c889ff;
   --purple-500: #892cdc;
+  --purple-600: #874bf7;
   --pink-500: #f10086;
 }
 :root {
@@ -165,7 +168,21 @@ ul.training li.lesson.expose .contents p a,
 div.prompt.expose .contents p a {
   color: var(--green-500) !important;
 }
+ul.training li.lesson.expose .contents .video,
+div.prompt.expose .contents .video {
+  background: #130d2e;
+}
 div.prompt {
   background: #130d2e;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 30px 0px rgba(0, 0, 0, 0.5);
+}
+div.prompt .contents blockquote {
+  background: #0b081a;
+  border-color: var(--purple-500);
+  color: var(--purple-300);
+}
+div.prompt .contents blockquote a.button {
+  border-color: var(--purple-500);
+  color: white;
+  background-color: var(--purple-500);
 }

@@ -1,61 +1,86 @@
-# Uploading files
-By the end of our first week, we’ll dive into file uploads, rounding off our exploration of input methods like text, voice, photos, and attachments.
+# Adding Long-Form Content
+To wrap up our first week, we’re diving into using AI with long-form content — rounding off our exploration of different input methods like text, voice, and images.
+
+# Uploading Files (Or Copy-Pasting)
 
 ```
-Since saving and finding files can be tricky on phones, this might be a good opportunity to try ChatGPT on a computer. Just head to chatgpt.com, where you’ll find your chats in a familiar interface.
+The free version of ChatGPT does not currently support file uploads like PDFs or spreadsheets. However, since it allows messages up to 3,000 words, you can simply copy and paste large chunks of text instead!
 ```
 
-## Understanding docs
-AI doesn’t just understand text or interpret photos — it’s also skilled at reading and analyzing long documents like PDFs, spreadsheets, and PowerPoint presentations.
+## Adding Content
+AI isn’t just great at short chats — it can also analyze, summarize, and interact with longer documents like emails, news articles, research papers, legal and financial documents and more.
 
-For example, you can upload something like [this 49-page PDF](https://immi.homeaffairs.gov.au/citizenship-subsite/files/our-common-bond-testable.pdf) from the Australian Government’s citizenship test and ask:
+As a simple example, if you paste a long email, you can ask:
 
-> Summarise the contents of this document
+> Summarize this email and highlight any key points I should respond to:<br />{{paste long email}}
 
-### A bit of an expert 🐷
-The strength of this feature is that once the document is uploaded, AI becomes an expert in that content. You can ask follow-up questions, like:
+## Using Documents as Context
+Just like we’ve used context in text conversations, we can do the same with pasted documents. Once AI has read a piece of content, you can continue the discussion.
 
-> Ask me 3 questions that might be on the citizenship test
+After summarizing an email, you could follow up with:
 
-You might even want to ask questions about things that are **not** in the file, like:
+> Here’s my reply. Did I address all the key points?<br />{{paste reply}}
 
-> Are there any topics you’d expect to see in this document that aren’t covered?
+You can then tweak your response with AI’s help:
+
+- 📝 “Improve my response and make it more concise.”
+- 💼 “Make my reply more professional but still friendly.”
+- 😎 “Rewrite this in a more casual and engaging tone.”
+
+The best part is that once the text is pasted, AI becomes an expert on it — it’s like talking **with** your documents.
 
 ***
 
-## Real-World Use
-How you use this feature will depend on the documents you work with regularly. Here are a few examples from my own experience:
+## Everyday Use
+Summarizing emails is just the start — here are more powerful and practical ways AI can process large amounts of text:
 
-```
-If you can’t download or upload a large file, you can always copy and paste the text. Just say, “Here’s a document I received, help me understand it better” and paste it in
-```
+### 📔 Exam Prep
+Copy text from a long document, research paper or book and let AI quiz you on it:
 
-### Please read the terms and... 🥱
-You know those long, boring terms and conditions for things like renting a car or opening a bank account? GPT excels at simplifying these. You could ask:
+> Create a 5-question multiple-choice quiz based on this text and grade my answers.
 
-> The valet company scratched my car—what does this document say about their liability?
+Or ask for a breakdown, like “Summarize the part about cell division in simple terms for beginners.”
 
-I recently uploaded the entire terms of service from a bank and said:
+### 🥱 Terms & Conditions
+We all skim through terms of service, but AI can do the hard work in helping you understand their meaning:
 
-> What are the exact steps to earn the maximum interest from the Saver account?
+> The valet company scratched my car — what does this document say about their liability?
 
-It revealed hidden details I would have missed, which the bank was likely hoping I wouldn’t find! 💰💰💰
+Or you could upload the terms of service for a new bank account and ask:
 
-### Digging through the archives 🪣
-Just like yesterday’s bird-counting exercise, AI can easily sift through large amounts of data. For instance, you could upload 12 months of credit card statements and ask:
+> Give me precise instructions on how to earn the maximum interest based on this document.
 
-> Is there seasonality behind my Waitrose purchases?
+You could even ask for insight into the document itself, like checking for hidden clauses:
 
-Remember, AI works best as a **conversation**. Start with one question, and follow up as you explore further. If you’re dealing with spreadsheets or financial data, you can even ask for a graph based on your findings.
+> Is there anything unusual in this contract that I should be aware of?
+
+### 🤓 Common Sense Contracts
+Like terms and conditions, anything that’s written in unecessarily complicated legal terms can be easily translated into plain language by AI. Things like employment contracts, mortgages, and rental agreements become documents you can query:
+
+> What are the consequences of breaking this lease after six months?
+
+On the topic of real estate, try pasting in the contents of a property listing and asking AI:
+
+> Remove all the real-estate buzzwords and give me a simple, common-sense description of this property:
+
+### 📰 Interpret The News
+The media is full of opinions, bias, and emotionally charged language, making it hard to separate fact from interpretation. AI can help by breaking down complex topics, identifying bias, and presenting a clearer, more balanced perspective. **Try:**
+
+> Summarize this article without bias:
+
+Or even using what we learned about leveraging AI to consider different opinions:
+
+> Does this article provide a complete view of the issue? What perspectives might be missing:
 
 ***
 
+# Today’s Task
+If you haven’t already, pick one long-form piece of content that you’ve written — like an email or document — then ask AI to rewrite it in a completely different style:
 
-## Getting quizzy 😵‍💫
-Feel free to upload your own documents and explore the possibilities. For a fun challenge, you could download the [Lawmakers guide to UK law](https://www.law.ox.ac.uk/sites/default/files/migrated/justice_-_law_for_lawmakers.pdf) (68 page PDF), upload it to ChatGPT, and ask:
+- 🇬🇷 “Rewrite this as a Greek myth.”
+- 🍛 “Rewrite this in the style of a chaotic Yelp review.”
+- 🧑‍🔬 “Make this sound like a scientific research paper.”
 
-> Create a 5-question multiple-choice quiz based on this document and grade my answers
-
-I scored 3/5 — looks like I need to brush up on my parliamentary sovereignty knowledge! How did you do?
-
-
+```
+If you have a paid version of ChatGPT, simply upload your doc instead of copy-pasting! This is powerful for questioning spreadsheets or complicated formats, like presentations or PDFs.
+```

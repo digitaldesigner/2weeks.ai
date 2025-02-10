@@ -23,7 +23,7 @@ $(document).ready(function() {
             } else {
                 const timeElapsed = Date.now() - parseInt(firstSeenTimestamp, 10);
                 if (timeElapsed > badgeVisibleDuration) {
-                    $(this).find('.new-badge').remove();
+                  // Not doing this 1-day reveal anymore
                 }
             }
         });
@@ -36,26 +36,45 @@ $(document).ready(function() {
     
     // Scroll to the next lesson
     function scrollToNextLesson(){
-      var firstIncomplete = $('li.lesson').not('.completed').first();
+      var firstIncomplete = $('li.lesson').not('.completed').not('.intro').first();
+      var countCompleteLessons = $('#todo-list .lesson.completed').not('.intro').length;
       var container = $('#todo-list');
-      if (firstIncomplete.length) { 
-        var thislesson = $(firstIncomplete[0]);
-        var containerWidth = container.width();
-        var elementOffset = thislesson.position();
-        var elementWidth = thislesson.outerWidth();
-        var scrollPosition = elementOffset.left - (containerWidth / 2) + (elementWidth / 2);
-        var viewportoffset = $(window).width() * 0.05;
-        container.animate({scrollLeft:(scrollPosition - viewportoffset)}, 500);
+      if (firstIncomplete.length) {
+        if (countCompleteLessons > 0) {
+          var thislesson = $(firstIncomplete[0]);
+          var containerWidth = container.width();
+          var elementOffset = thislesson.position();
+          var elementWidth = thislesson.outerWidth();
+          var scrollPosition = elementOffset.left - (containerWidth / 2) + (elementWidth / 2);
+          var viewportoffset = $(window).width() * 0.05;
+          container.animate({scrollLeft:(scrollPosition - viewportoffset)}, 10);
+        }
       } else {
-        container.scrollLeft(container.prop("scrollWidth"));
+        container.scrollLeft(0);
       }
     }
+    
+    $('#bump').click(function(){
+      var firstIncomplete = $('li.lesson').not('.completed').not('.intro').first();
+      var container = $('#todo-list');
+      if (firstIncomplete.length) {
+          var thislesson = $(firstIncomplete[0]);
+          var containerWidth = container.width();
+          var elementOffset = thislesson.position();
+          var elementWidth = thislesson.outerWidth();
+          var scrollPosition = elementOffset.left - (containerWidth / 2) + (elementWidth / 2);
+          var viewportoffset = $(window).width() * 0.05;
+          container.animate({scrollLeft:(scrollPosition - viewportoffset)}, 10);
+          container.scrollLeft(scrollPosition - viewportoffset);
+      } else {
+        container.scrollLeft(0);
+      }
+    });
     
     // Daily prompts
     function showDailyPrompt(){
       var countTotalLessons = $('#todo-list .lesson').not('.intro').length;
       var countCompleteLessons = $('#todo-list .lesson.completed').not('.intro').length;
-      console.log(countCompleteLessons+' completed of '+countTotalLessons+' total.');
       if(countTotalLessons === countCompleteLessons){
         const today = new Date();
         today.setHours(0, 0, 0, 0);
@@ -98,7 +117,7 @@ $(document).ready(function() {
 			const renderer = new marked.Renderer();
 
 			renderer.blockquote = function(text) {
-				return '<blockquote>' + text.text+ '<button>Try</button></blockquote>';
+				return '<blockquote>' + text.text+ '<button class="gpt">Try</button></blockquote>';
 			};
 
 			marked.use({ renderer });
@@ -200,10 +219,16 @@ $(document).ready(function() {
       openTask(this);
     });
     
+    $('#donate').click(function(e){
+      e.preventDefault();
+      $('#about').addClass('open');
+      $('#prompt-background').show();
+    });
+    
     $('.dismiss').click(function(e){
       e.preventDefault();
       $('#prompt-background').hide();
-      $('#daily').removeClass('open');
+      $('#daily,#about').removeClass('open');
       
       const defaults = {
         spread: 360,
@@ -236,7 +261,7 @@ $(document).ready(function() {
       
     });
         
-    $('body').on('click','blockquote button',function(){
+    $('body').on('click','button.gpt',function(){
       var textToCopy = $(this).parent().text();
       textToCopy = textToCopy.slice(0, -3);
       var tempTextarea = $('<textarea>');
