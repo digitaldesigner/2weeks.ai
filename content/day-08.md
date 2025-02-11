@@ -1,7 +1,7 @@
 # Making Plans
 Planning can be tough. Whether it’s **big plans** like vacations or events, **long-term goals** like fitness or learning, or **immediate tasks** like work deadlines, grocery trips, or simply structuring your day, keeping everything in order can feel overwhelming. AI can be a valuable partner in cutting through the chaos, helping you stay organized, and making smarter decisions.
 
-In every lesson so far, we’ve started a new chat to keep the context fresh and avoid confusing AI. But today’s lesson is a great example of when continuing an existing conversation can actually be helpful. By keeping your planning discussions in the same chat, AI can remember details, refine ideas, and build on past suggestions—just like a real assistant.
+In every lesson so far, we’ve started a new chat to keep the context fresh and avoid confusing AI. But today’s lesson is a great example of when continuing an existing conversation can actually be helpful. By keeping your planning discussions in the same chat, AI can remember details, refine ideas, and build on past suggestions — just like a real assistant.
 
 Today we’ll start with a new chat, but if you revisit this lesson later, you can find and continue the conversation by pressing the sidebar icon:
 
@@ -11,58 +11,79 @@ From here you an jump to a previous chat and continue the conversation:
 
 ![Browse previous chats](./assets/images/side-drawer.png)
 
-## Getting Started
+# Think Big!
+Today, we’ll see how AI can help plan a weekend getaway — and in the process, you’ll discover how AI breaks big tasks into smaller, manageable steps, suggests timelines, and offers alternative options. We’ll start with a fictional plan, but if you have something specific — like an upcoming holiday, event, or hectic week — you can bring your own adventure.
 
+Let’s plan a weekend getaway to your town or city. This way, you’ll see firsthand whether the recommendations are any good:
 
-	Can you help me create a flexible itinerary for {trip/event}? I want a balance of {relaxation/adventure/productivity}.
+> Help me plan a 3-day long weekend in {{your town}}.
 
-- local recommendations (remember that AI knows local stuff)
+## Refine
+Just like we’ve added context and follow-ups in previous lessons, plans can be easily adjusted with new details — or even a completely different direction.
+
+Once you have the outline of your plan, you might want to refine it with specifics:
+
+> I’d like to make it a luxury trip, spare no expense!
+
+You can tweak the details as much as you like — change the budget, add constraints, ask questions, or even suggest ideas of your own — without needing to track every change manually. Since AI remembers the conversation, you can focus on the fun parts, like exploring alternatives:
+
+> Can you give me a couple of other options?
+
+And if you change your mind? No problem! You can always say: “Actually, let’s stick with the first plan.” This also works for creating backup plans in case things don’t go as expected.
+
+## Turn Plans Into Action
+Sometimes, the hardest part of planning is knowing where to start — and that’s another thing AI can help with. Whether it’s a luxury getaway, a road trip, or even a new workout routine — a great way to move forward is by prioritizing tasks:
+
+> Give me a list of priorities to make this plan a reality!
+
+By letting AI handle the structure, you can focus on making your plans happen!
+
+---
+
+# Making Smaller Plans
+AI-backed planning isn’t just helpful for the big plans — like trips or life events — it can be useful for the day-to-day jobs too. At the very least, it can help provide some alternatives to your own ideas. Here are some smaller plans where AI can help:
+
+## 💰 Budgeting for a Big Purchase
+If you’re saving up for something important or expect a big outgoing in the future, AI can help break down your budget and create a savings plan. Try:
+
+> I want to save $5,000 for a trip in 6 months. Can you help me create a realistic savings plan?
+
+You can adjust it by adding income, expenses, and your own ideas on ways to cut costs or increase savings.
+
+## 🚀 Planning a Side Hustle
+If you had the early ideas for a small business venture or a fun side project — AI can help you organize the steps to get off the ground. Try:
+
+> Help me create a 3-month plan to start an online business selling hand-knitted socks for hedgehogs.
+
+## 🎒 Getting the Kids to School on Time
+Mornings with kids are chaotic. Fortunately AI can help you create a streamlined routine that ensures everyone gets out the door on time. Try asking:
+
+> Help me create a morning routine to get the kids to school on time, factoring in breakfast, getting dressed, and travel time.
+
+You can refine the plan with specifics like school start times, different schedules for each child, or even backup plans for when things go off track.
+
+## 🌮 Meal Planning
+Use AI to generate a meal plan based on your dietary needs, budget, schedule and effort. Try:
+
+> Create a weekly meal plan for a family of four, focusing on quick, healthy dinners.
+
+Once you have a plan you like the look of, you could follow-up with:
+
+> Make a grocery list of the items I’ll need for the week.
 
 ***
 
-# ORIGINAL
+Whether you follow AI’s suggestions to the letter, or just use them as a starting point for better decision-making — AI helps you stay organized, think ahead, and tackle big tasks with ease!
 
-Since tomorrow you’re heading out on a cruise with a fair bit of free time on your hands, let’s spend today getting ChatGPT set up to make the trip more comfortable and fun.
+Here are a few extra ideas:
 
-## Packing smart 🎒
-You’re probably (hopefully) already packed, but AI can help you think of some extra items that might make those long ocean days even more calm:
+- 🧺 Prioritizing house chores
+- 🎉 Planning a surprise party
+- 🇪🇸 Learning Spanish for an upcoming trip
+- ✈️ Figuring out how to stay entertained on a 17-hour flight
 
-> What are some interesting or often forgotten items I should pack for a 12-day cruise?
+And just like that, you’ve turned AI into your very own planning sidekick! Now, go put it to work — because not even AI can make your plans a reality (yet) 🚀
 
-Feel free to make it more personal—mention any weather info, planned activities, or specific things you’re excited about.
-
-## Prepare for dinner 🍽️
-You probably already have a full itinerary, so there’s no need for AI to create a workout or relaxation schedule (unless you’d like). Instead, it could be fun to come up with some interesting conversation starters for dinner with other guests:
-
-> Give me a list of interesting conversation starters I can use at dinner with other guests.
-
-Having worked in hospitality I can tell you that most guests often stick to the same few questions, so when chatting with the crew, you might want to mix things up a bit:
-
-> What are some original questions I could ask the crew that will give me some insight into what goes on behind the scenes?
-
-## Creating a cruise journal 📓✍️
-In a separate chat, you could keep a daily journal of your cruise experiences. Rather than just writing notes, you can have AI help by prompting you with questions. Each day, you could say:
-
-> It’s day {X} of the cruise, ask me 3 questions to help me journal my experiences.
-
-Returning to the same chat each day will allow you to build a complete record of your journey. At the end of the cruise, we can explore some fun ways to use that full chat.
-
-## Entertainment backup plan 🎮
-Should you get bored, AI can be a lighthearted companion when books and activities run thin. Try:
-
-> Can you play 20 Questions with me?
-
-Or...
-
-> Give me a series of riddles to solve, starting easy and getting harder
-
-### Some more ideas...
-
-- **Creative Writing Prompts**: "Give me a prompt for a short story, and let’s build the story together step by step."
-- **Guess the Song:** "Describe the lyrics or theme of a popular song, and I'll try to guess what it is."
-- **Would You Rather**: "Let’s play a game of Would You Rather with some fun, unusual scenarios."
-- **Two Truths and a Lie**: "I’ll tell you two truths and a lie, and you guess which one is the lie. You can also create some for me to guess!"
-
-This will keep your brain active, make those ocean days fly by and hopefully keep you exited about AI.
-
-Happy sailing 🫡
+```
+Planning not your thing? Try "Can you give me a convincing excuse for why I can’t attend Thanksgiving dinner?"
+```
