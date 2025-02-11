@@ -27,7 +27,7 @@ Of course, this doesn't need to be about heavy topics! You can use the same appr
 
 You can interrupt a response at any time by hitting the ⏹️ stop button and sending a new message.
 
-AI remembers the context within a chat, so you don’t have to rephrase everything from scratch. Just respond naturally, ask follow-up questions, and let the conversation flow! You can even challenge or ask for elborations, just like you would in a human conversation, **like:**
+AI remembers the context within a chat, so you don’t have to rephrase everything from scratch. Just respond naturally, ask follow-up questions, and let the conversation flow! You can even challenge or ask for elaborations, just like you would in a human conversation, **like:**
 
 > Can you give me a few more options?
 
