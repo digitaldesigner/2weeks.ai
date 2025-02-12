@@ -1,5 +1,5 @@
 <?php
-	define('version','?version=9.3');
+	define('version','?version=9.5');
 	function getMarkdownFilesContent($directory) {
 	    $files = glob($directory . '/*.md');
 	    $contentArray = [];
@@ -63,7 +63,7 @@
 			$title = "Day ".$lessonNumber;
 			if($lessonNumber == 0) { $title = "Welcome"; }
 			
-			$latest = 9;
+			$latest = 10;
 			
 			if($lessonNumber<$latest) {
 				echo "
@@ -116,7 +116,7 @@
 		<div class='contents'>
 			<p><strong>2 Weeks AI</strong> was created and written by Buzz Usborne. Originally designed as a private course for his dad&rsquo;s 75th birthday, it quickly gained traction as more people asked for access. Turns out, making AI fun, non-technical, and grounded in real-world use benefits everyone—from schoolkids to retirees, self-proclaimed AI natives to the completely AI-curious.</p>
 			
-			<blockquote>If you found this course useful, please consider donating a coffee to help keep it online!<a href="https://buymeacoffee.com/yourfriendbuzz" target="_blank" title="Donate a coffee" class="button">Donate a coffee!</a></blockquote>
+			<blockquote>If you found this course useful, please consider donating a coffee to help keep it online!<a href="https://buymeacoffee.com/buzz/" target="_blank" title="Donate a coffee" class="button">Donate a coffee!</a></blockquote>
 			
 			<p><a href="https://buzzusborne.com/" target="_blank" title="Buzz Usborne">Buzz</a> is a coach, startup advisor, and software designer, giving him a unique perspective on AI—seeing it from the lens of the companies building it, the designers shaping it, and the everyday people using it.</p>
 			

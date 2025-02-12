@@ -74,6 +74,12 @@ div.prompt .contents p code {
   background: rgba(0, 0, 0, 0.9);
   color: var(--clay-100);
 }
+ul.training li.lesson .contents div.embed,
+div.prompt .contents div.embed,
+ul.training li.lesson .contents div.video,
+div.prompt .contents div.video {
+  background: #130d2e;
+}
 ul.training li.lesson .contents ul li,
 div.prompt .contents ul li,
 ul.training li.lesson .contents ol li,
@@ -167,10 +173,6 @@ div.prompt.expose a.expander {
 ul.training li.lesson.expose .contents p a,
 div.prompt.expose .contents p a {
   color: var(--green-500) !important;
-}
-ul.training li.lesson.expose .contents .video,
-div.prompt.expose .contents .video {
-  background: #130d2e;
 }
 div.prompt {
   background: #130d2e;

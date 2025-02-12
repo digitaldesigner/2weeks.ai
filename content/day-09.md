@@ -1,43 +1,56 @@
-# Making decisions
-Earlier, we talked about how AI can be especially helpful when you have the **beginnings** of a thought, an interest, or an idea — like mapping out a new trip or brainstorming a DIY project. AI can help turn those early sparks into a structured plan by suggesting next steps and refining your ideas. Today, we’re diving deeper into that concept, learning how to use AI to create clearer, more organized plans.
+# Decision Making
+In our last lesson, we explored **Planning** — where we used AI to go beyond simple Q&A by exploring ideas, breaking down goals, and creating a roadmap to achieve them. Today, we’re building on that by diving into **Decision Making** — where AI can be used to help weigh options, analyze trade-offs, and choose the best path forward.
 
-```
-This technique is great for big projects like home renovations or major DIY tasks—but it’s just as handy for small decisions, like choosing where to go for dinner or how to spend a day off.
-```
+If planning is about asking, *“How do I get from A to B?”*, then decision making is about asking, *“Should I take Path A or Path B?”*. The ideas is to use AI to make faster, smarter, and more objective decisions — removing guesswork and bias along the way.
 
-This approach is known as a **Decision Tree**. It’s a simple way to break a complex decision into smaller, manageable choices. When you use the term "decision tree" in your prompt, it encourages ChatGPT to ask clarifying questions, create pros and cons lists, and help you explore different branches of a decision step-by-step. 
+## Can You Trust AI?
+Before we dive into today’s lesson, there’s an uncomfortable but important reality to acknowledge: AI gets **confused** —sometimes in subtle ways, and other times in completely ridiculous ways. Here’s a funny example from the makers of ChatGPT:
 
-## 🗺 Remember, it’s a journey...
-By now, you’re familiar with how valuable it is to keep the conversation going. The strength of decision trees lies in your ability to continue the discussion and use the chat history as context. Instead of looking for a single answer, you’re **collaborating** with AI to explore the best solution together.
+<div class="embed"><iframe src="https://www.youtube.com/embed/Cuk5DzhkvVg?si=pQk7I62_cQqnSL__" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-## Plan a trip to India 🇮🇳
-Here’s an example of what a prompt might look like:
+AI responses can sound authoritative, but that doesn’t mean they’re always correct. Like people, AI can misunderstand context, make logical errors, or even confidently provide incorrect information.
 
-> I want to plan a big trip to India, but I'm not sure where to go. Can you help me create a decision tree based on budget, distance, climate, and available activities?
-
-AI will then provide you with options based on your criteria. For instance, under **Budget**, you’ll get options for low, medium, and high budget trips. From there, you can refine the choices:
-
-> Mid-budget sounds good, but I'd like to stay coastal
-
-After a few interactions like this, you might find it helpful to dive deeper into a specific decision:
-
-> Create a decision tree for 3 weeks in Goa, focusing on how to get around
+Later in the course, we’ll cover fact-checking and verifying sources, but for today keep in mind that any advice AI provides should always be questioned — especially when making important decisions.
 
 ***
 
-## Remix it!
-Some of the most interesting discussions happen when you change direction completely within the same conversation. For example, after planning your ideal holiday to India, you could throw in a curveball that you’d never want to bother a travel agent with:
+# 🌳 Decision Trees
+While planning is about creating a roadmap for an idea, decision making is about choosing the best path at each fork in the road. AI can assist with both but relies on different methods — when faced with a decision-based prompt, it will structure its response using a **decision tree** framework.
 
-> Okay what if I stayed home instead? Options for using a similar budget?
+A decision tree is simply a way to break down a choice into a series of clear, logical steps. AI is particularly good at using this method because it’s unbiased — it can present your options objectively, helping you weigh the pros and cons without emotional influence. **Try:**
 
-## Possibilities
-AI can be incredibly useful for narrowing down broad questions, saving time by breaking complex decisions into manageable parts. Here are just a few ideas of when you might want to use it:
+> Should I buy a new car or keep my old one? Create a decision tree.
 
-- ⚖️ **Career decisions** such as evaluating potential career paths based on salary, experience, commitment etc 
-- 💵 **Financial investments** like deciding between different investment options based on risk
-- 💊 **Health and fitness goals** such as evaluating medical treatment options by comparing side effects, costs, and effectiveness
-- 🚗 **Purchasing decisions** like evaluating different car models based on cost, fuel efficiency, and features
+Of course, you don’t need to explicitly ask for a decision tree every time — you can simply give AI two or more options and ask for help deciding. The response should present a clear breakdown of your choices, guiding you toward the best course of action. And in cases where the right decision is obvious, AI may even offer a strong recommendation.
 
-Or, maybe you’ve just worked up an appetite from reading this:
+Here are some differnent ways you can use decision trees and AI’s decision making abilities to help in your everyday life:
 
-> I'm on a cruise ship. There are 29 restaurants and I’m hungry for dinner. Create a decision tree to help me decide where to eat.
+## ⚖️ Weighing Trade-Offs
+We can ask AI to break down decisions into clear trade-offs by listing the pros and cons of each option. This makes it easier to see the strengths and weaknesses of your choices. **Try:**
+
+> Can you list the pros and cons of working from home vs. going back to the office?
+
+## 🤔 Simulating Outcomes
+AI can predict different outcomes based on the context you provide, helping you evaluate long-term strategies. This is especially useful for financial or major life decisions. **Try:**
+
+> Help me decide whether I should rent or buy a home. Consider my budget, location and long-term financial goals.
+
+You can also refine the decision by introducing new variables after the intial output:
+
+> What if interest rates rise? How would that change my decision?
+
+## 🎭 Unbiased Suggestions
+Because AI isn’t influenced by emotions or social pressure, it can provide neutral, logical recommendations — helpful when making difficult or emotionally charged choices. **Try:**
+
+> I’m choosing between two schools for my child. One has smaller class sizes but requires changing schools, while the other is their current school with larger class sizes. Can you help me decide?
+
+## 🔄 Flip It
+Finally, AI isn’t just useful for making future decisions — it can also help you re-evaluate past choices to see if they were solid or if you might have overlooked something important.
+
+> I recently decided to stop showering. Can you help me identify any important factors I might have overlooked?
+
+***
+
+```
+Remember to treat AI answers the same way you would advice from a friend — helpful, but not always 100% reliable. If in doubt, ask: "How confident are you that this information is correct?"
+```

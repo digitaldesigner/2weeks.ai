@@ -442,6 +442,23 @@ div.prompt .contents video {
   width: 100%;
   border-radius: 6px;
 }
+ul.training li.lesson .contents div.embed,
+div.prompt .contents div.embed {
+  aspect-ratio: 1.77777778;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--clay-200);
+  border-radius: 6px;
+  width: 100%;
+}
+ul.training li.lesson .contents div.embed iframe,
+div.prompt .contents div.embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
 ul.training li.lesson .contents div.video,
 div.prompt .contents div.video {
   display: flex;
@@ -1377,5 +1394,23 @@ div.prompt-background.open {
   70% {
     -webkit-transform: scale(1);
     transform: scale(1);
+  }
+}
+@supports not (aspect-ratio: 16 / 9) {
+  ul.training li.lesson .contents,
+  div.prompt .contents div.embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+  ul.training li.lesson .contents iframe,
+  div.prompt .contents div.embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }
