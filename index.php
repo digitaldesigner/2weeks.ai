@@ -1,5 +1,6 @@
 <?php
-	define('version','?version=9.5');
+	//define('version','?version=9.5');
+	define('version',NULL);
 	function getMarkdownFilesContent($directory) {
 	    $files = glob($directory . '/*.md');
 	    $contentArray = [];
@@ -63,7 +64,7 @@
 			$title = "Day ".$lessonNumber;
 			if($lessonNumber == 0) { $title = "Welcome"; }
 			
-			$latest = 10;
+			$latest = 11;
 			
 			if($lessonNumber<$latest) {
 				echo "
@@ -132,6 +133,5 @@
 	<script src="//cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
 	<script src="assets/js/site.js<?=version?>"></script>
-	<script src="assets/js/daily.js<?=version?>"></script>
 </body>
 </html>

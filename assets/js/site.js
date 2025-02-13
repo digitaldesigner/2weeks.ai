@@ -54,22 +54,7 @@ $(document).ready(function() {
       }
     }
     
-    $('#bump').click(function(){
-      var firstIncomplete = $('li.lesson').not('.completed').not('.intro').first();
-      var container = $('#todo-list');
-      if (firstIncomplete.length) {
-          var thislesson = $(firstIncomplete[0]);
-          var containerWidth = container.width();
-          var elementOffset = thislesson.position();
-          var elementWidth = thislesson.outerWidth();
-          var scrollPosition = elementOffset.left - (containerWidth / 2) + (elementWidth / 2);
-          var viewportoffset = $(window).width() * 0.05;
-          container.animate({scrollLeft:(scrollPosition - viewportoffset)}, 10);
-          container.scrollLeft(scrollPosition - viewportoffset);
-      } else {
-        container.scrollLeft(0);
-      }
-    });
+    $('#bump').click(function(){ scrollToNextLesson(); });
     
     // Daily prompts
     function showDailyPrompt(){
@@ -168,7 +153,6 @@ $(document).ready(function() {
             setTimeout(shoot, 0);
             setTimeout(shoot, 100);
             setTimeout(shoot, 200);
-            
             
             var element = $(this).closest('li.lesson');
             fathom.trackEvent('lesson_complete');

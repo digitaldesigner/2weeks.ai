@@ -4,13 +4,13 @@ In our last lesson, we explored **Planning** — where we used AI to go beyond s
 If planning is about asking, *“How do I get from A to B?”*, then decision making is about asking, *“Should I take Path A or Path B?”*. The ideas is to use AI to make faster, smarter, and more objective decisions — removing guesswork and bias along the way.
 
 ## Can You Trust AI?
-Before we dive into today’s lesson, there’s an uncomfortable but important reality to acknowledge: AI gets **confused** —sometimes in subtle ways, and other times in completely ridiculous ways. Here’s a funny example from the makers of ChatGPT:
+Before we dive into today’s lesson, there’s an uncomfortable but important reality to acknowledge: AI gets **confused** —sometimes in subtle ways, and other times in completely ridiculous ways. Even the best AI tools can stumble over basic tasks:
 
-<div class="embed"><iframe src="https://www.youtube.com/embed/Cuk5DzhkvVg?si=pQk7I62_cQqnSL__" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+![Confidently Incorrect](./assets/images/confidently-incorrect.png)
 
-AI responses can sound authoritative, but that doesn’t mean they’re always correct. Like people, AI can misunderstand context, make logical errors, or even confidently provide incorrect information.
+AI responses can **sound** authoritative, but that doesn’t mean they’re always correct. Like people, AI can misunderstand context, make logical errors, or even confidently provide incorrect information.
 
-Later in the course, we’ll cover fact-checking and verifying sources, but for today keep in mind that any advice AI provides should always be questioned — especially when making important decisions.
+Later in the course, we’ll cover fact-checking and verifying sources, but for today keep in mind that any advice AI provides should always be questioned — especially when making important decisions!
 
 ***
 
@@ -23,19 +23,21 @@ A decision tree is simply a way to break down a choice into a series of clear, l
 
 Of course, you don’t need to explicitly ask for a decision tree every time — you can simply give AI two or more options and ask for help deciding. The response should present a clear breakdown of your choices, guiding you toward the best course of action. And in cases where the right decision is obvious, AI may even offer a strong recommendation.
 
-Here are some differnent ways you can use decision trees and AI’s decision making abilities to help in your everyday life:
+Here are some different ways you can use decision trees and AI’s decision making abilities to help in your everyday life:
 
 ## ⚖️ Weighing Trade-Offs
 We can ask AI to break down decisions into clear trade-offs by listing the pros and cons of each option. This makes it easier to see the strengths and weaknesses of your choices. **Try:**
 
 > Can you list the pros and cons of working from home vs. going back to the office?
 
+![Typical list of pros and cons](./assets/images/pros-cons.png)
+
 ## 🤔 Simulating Outcomes
 AI can predict different outcomes based on the context you provide, helping you evaluate long-term strategies. This is especially useful for financial or major life decisions. **Try:**
 
 > Help me decide whether I should rent or buy a home. Consider my budget, location and long-term financial goals.
 
-You can also refine the decision by introducing new variables after the intial output:
+You can also refine the decision by introducing new variables after the initial output:
 
 > What if interest rates rise? How would that change my decision?
 

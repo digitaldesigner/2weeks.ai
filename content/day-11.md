@@ -39,7 +39,7 @@ Once you’re ready to pause for the day, wrap up by asking for a fun quiz or a 
 ## Continuous learning, later
 This approach works for any topic you’ve explored with ChatGPT. Revisit past chats to pick up right where you left off. Tap the icon at the top left of the app, and choose a past chat:
 
-![Finding previous chats](./assets/images/prev-chats.png)
+![Finding previous chats](./assets/images/side-drawer.png)
 
 When you find your chat, try:
 

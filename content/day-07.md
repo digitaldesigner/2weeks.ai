@@ -1,4 +1,4 @@
-# Adding Long-Form Content
+# Adding Content
 To wrap up our first week, we’re diving into using AI with long-form content — rounding off our exploration of different input methods like text, voice, and images.
 
 # Uploading Files (Or Copy-Pasting)
