@@ -6,7 +6,10 @@ If planning is about asking, *“How do I get from A to B?”*, then decision ma
 ## Can You Trust AI?
 Before we dive into today’s lesson, there’s an uncomfortable but important reality to acknowledge: AI gets **confused** —sometimes in subtle ways, and other times in completely ridiculous ways. Even the best AI tools can stumble over basic tasks:
 
-![Confidently Incorrect](./assets/images/confidently-incorrect.png)
+<picture>
+  <source srcset="./assets/images/confidently-incorrect-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/confidently-incorrect.png">
+</picture>
 
 AI responses can **sound** authoritative, but that doesn’t mean they’re always correct. Like people, AI can misunderstand context, make logical errors, or even confidently provide incorrect information.
 
@@ -30,7 +33,10 @@ We can ask AI to break down decisions into clear trade-offs by listing the pros 
 
 > Can you list the pros and cons of working from home vs. going back to the office?
 
-![Typical list of pros and cons](./assets/images/pros-cons.png)
+<picture>
+  <source srcset="./assets/images/pros-cons-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/pros-cons.png">
+</picture>
 
 ## 🤔 Simulating Outcomes
 AI can predict different outcomes based on the context you provide, helping you evaluate long-term strategies. This is especially useful for financial or major life decisions. **Try:**

@@ -3,7 +3,10 @@ AI isn’t just for text and voice — it can also analyze images and provide in
 
 To add or upload an image, simply tap the plus (+) icon next to the message box. The options are similar across desktop and mobile AI tools.
 
-![Plus menu](./assets/images/upload-action.png)
+<picture>
+  <source srcset="./assets/images/upload-action-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/upload-action.png">
+</picture>
 
 - 📷 **Camera** - Snap a picture with your camera
 - 🖼 **Photos** - Choose an image from your phone’s gallery
@@ -19,7 +22,10 @@ Here are some real-world ways to use image uploads in your day-to-day life:
 ### Decypher Confusing Instructions
 Ever stared at a parking sign for way too long, trying to figure out if you’re about to get fined? AI can help! By uploading an image and adding relevant context—like the current day and time, and how long you plan to park — AI can quickly break it down for you:
 
-![Parking sign](./assets/images/parking.png)
+<picture>
+  <source srcset="./assets/images/parking-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/parking.png">
+</picture>
 
 This technique works in many situations where instructions aren’t clear:
 
@@ -59,7 +65,10 @@ If you haven’t experimented with AI’s image capabilities yet, now’s the ti
 
 > Describe this picture in the funniest way possible.
 
-![Funny description](./assets/images/funny-description.png)
+<picture>
+  <source srcset="./assets/images/funny-description-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/funny-description.png">
+</picture>
 
 Other variations on this are to **roast your friends** — where you upload a group photo and ask AI for the most ridiculous captions. You could assign 1920s gangster names to old family pictures, or ask AI to write a diary entry from your pet’s perspective based on their expression.
 

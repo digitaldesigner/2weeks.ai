@@ -442,6 +442,10 @@ div.prompt .contents video {
   width: 100%;
   border-radius: 6px;
 }
+ul.training li.lesson .contents video.dark,
+div.prompt .contents video.dark {
+  display: none;
+}
 ul.training li.lesson .contents div.embed,
 div.prompt .contents div.embed {
   aspect-ratio: 1.77777778;
@@ -807,6 +811,7 @@ div.prompt .contents {
 div.prompt .contents::after {
   display: none;
 }
+.contents picture,
 .contents img,
 .contents p img {
   width: 100%;

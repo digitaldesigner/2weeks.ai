@@ -36,6 +36,9 @@ As with any tool, the effectiveness comes in **how** you use it — so the real 
 # What’s next?
 Now you’ve covered the fundamentals, it’s time to make using ChatGPT second-nature! The key to success is repetition, so every day for the next month this app will give you a ⭐ **Daily Prompt** ⭐. If you have marked all lessons as complete ✅ then every time you come back you'll see a prompt:
 
-![Prompt](./assets/images/daily-prompt.png)
+<picture>
+  <source srcset="./assets/images/daily-prompt-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/daily-prompt.png">
+</picture>
 
 Keep the momentum going!

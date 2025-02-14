@@ -1,7 +1,10 @@
 # Start Here 🏁
 **2 Weeks AI** is a simple and enjoyable introduction to Artificial Intelligence (AI) for anyone curious about it but unsure where to start.
 
-![Video](./assets/images/dummy-video.png)
+<picture>
+  <source srcset="./assets/images/dummy-video.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/dummy-video.png">
+</picture>
 
 *Intro video to come*
 
@@ -17,15 +20,24 @@ Simply click on each card to read through the lesson, and mark it as complete fo
 ## Bookmark This Course 
 For convenience, you can install this site as an app on your phone using a handy bookmark option in your browser. If you're using Safari, tap the share icon at the bottom of your screen:
 
-![Safari](./assets/images/share-location-safari.png)
+<picture>
+  <source srcset="./assets/images/share-location-safari-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/share-location-safari.png">
+</picture>
 
 Or in Chrome:
 
-![Chrome](./assets/images/share-location-chrome.png)
+<picture>
+  <source srcset="./assets/images/share-location-chrome-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/share-location-chrome.png">
+</picture>
 
 Clicking the icon will reveal the following menu. Select **Add to Home Screen** to turn this into an app. If you can't find the options or use a different browser, [there's more information here](https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/).
 
-![iOS Sheet](./assets/images/homescreen-location.png)
+<picture>
+  <source srcset="./assets/images/homescreen-location-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/homescreen-location.png">
+</picture>
 
 ***
 

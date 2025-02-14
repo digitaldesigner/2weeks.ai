@@ -74,6 +74,14 @@ div.prompt .contents p code {
   background: rgba(0, 0, 0, 0.9);
   color: var(--clay-100);
 }
+ul.training li.lesson .contents video.light,
+div.prompt .contents video.light {
+  display: none;
+}
+ul.training li.lesson .contents video.dark,
+div.prompt .contents video.dark {
+  display: block;
+}
 ul.training li.lesson .contents div.embed,
 div.prompt .contents div.embed,
 ul.training li.lesson .contents div.video,

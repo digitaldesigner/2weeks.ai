@@ -27,7 +27,10 @@ Today’s focus will be on health, so consider sharing details that might be rel
 
 As you add information, you might notice a `Memory updated` message appear. This is a good sign — it means AI is remembering useful details to personalize its responses. If you ever want to review or delete these memories, just head to your Settings.
 
-![Memory updated](./assets/images/memory-updated.png)
+<picture>
+  <source srcset="./assets/images/memory-updated-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/memory-updated.png">
+</picture>
 
 ***
 

@@ -34,7 +34,10 @@ AI isn’t just great at breaking down complex topics — it can also help you f
 
 > I need to adapt the following text for different audiences. Please rewrite it to match the tone and vocabulary for each group: a 10-year-old child, a general audience, and a professional audience.
 
-![Gen-Z Re-Write](./assets/images/gen-z.png)
+<picture>
+  <source srcset="./assets/images/gen-z-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/gen-z.png">
+</picture>
 
 ## ✏️ Virtual Editor
 AI isn’t just for rewriting — it can also be your personal editor, analyzing your content and offering constructive feedback. AI can help refine your writing by suggesting clearer phrasing, spotting inconsistencies, and ensuring your tone and structure stay on point.
@@ -54,4 +57,7 @@ You can also pair your edits with a question, like this:
 
 Finally, if all of this feels a bit heavy for today — try uploading a photo and asking AI to generate a caption for social media. After all, not **all** writing needs to be your best work... sometimes, it just needs to get the job done!
 
-![Instagram caption](./assets/images/caption.png)
+<picture>
+  <source srcset="./assets/images/caption-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/caption.png">
+</picture>

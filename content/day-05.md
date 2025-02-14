@@ -1,7 +1,8 @@
 # Talking With AI
 We’ve done plenty of writing — now it’s time to start **talking**! Interacting with an AI through speech is a unique and sometimes uncanny experience, so get ready to question reality a little.
 
-<video playsinline autobuffer autoplay muted loop poster="./assets/video/voice.jpg"><source src="./assets/video/voice.mp4" type="video/mp4"></video>
+<video class="light" playsinline autobuffer autoplay muted loop poster="./assets/video/voice.jpg"><source src="./assets/video/voice-chat-light.mp4" type="video/mp4"></video>
+<video class="dark" playsinline autobuffer autoplay muted loop poster="./assets/video/voice.jpg"><source src="./assets/video/voice-chat-dark.mp4" type="video/mp4"></video>
 
 ## Getting Started 🚀 
 Talking is simple, just follow these steps — and maybe give this article a read before jumping straight in.
@@ -9,7 +10,10 @@ Talking is simple, just follow these steps — and maybe give this article a rea
 1. **Open** a new chat.
 2. **Tap the voice icon**, instead of typing in the message box.
 
-![Voice location](./assets/images/voice-location.png)
+<picture>
+  <source srcset="./assets/images/voice-location-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/voice-location.png">
+</picture>
 
 This will start a voice conversation instead of a written one, and you’ll be greeted by your AI assistant. If you’re unsure what to say, start with a simple **“hello.”**
 
@@ -34,7 +38,10 @@ You’ll notice how surprisingly human-like AI’s responses are — and you mig
 - 🔇 **Silence is okay** — No need to fill every pause. If there’s a break in conversation, AI will simply wait until you’re ready to speak again.
 - 👩🏼 **Change your settings** — You can even change the voice if you’d like a different feel to your conversation. Just tap the settings icon at the top right:
 
-![Choose a voice](./assets/images/voice-settings-location.png)
+<picture>
+  <source srcset="./assets/images/voice-settings-location-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/voice-settings-location.png">
+</picture>
 
 # Today’s Task
 There’s no structured task today — just get comfortable talking to ChatGPT. Try using it at some point during your day, perhaps for a quick, lighthearted question, like:

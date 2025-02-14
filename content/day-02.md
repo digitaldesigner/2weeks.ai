@@ -23,7 +23,10 @@ For example, instead of stopping after one response, you can continue the conver
 
 Of course, this doesn't need to be about heavy topics! You can use the same approach for everyday tasks, like adjusting a recipe based on what ingredients you have:
 
-![Follow on conversations](./assets/images/follow-on-conversations.png)
+<picture>
+  <source srcset="./assets/images/follow-on-conversations-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/follow-on-conversations.png">
+</picture>
 
 You can interrupt a response at any time by hitting the ⏹️ stop button and sending a new message.
 

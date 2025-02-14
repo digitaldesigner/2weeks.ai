@@ -5,11 +5,17 @@ In every lesson so far, we’ve started a new chat to keep the context fresh and
 
 Today we’ll start with a new chat, but if you revisit this lesson later, you can find and continue the conversation by pressing the sidebar icon:
 
-![Show all chats](./assets/images/side-drawer-location.png)
+<picture>
+  <source srcset="./assets/images/side-drawer-location-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/side-drawer-location.png">
+</picture>
 
 From here you an jump to a previous chat and continue the conversation:
 
-![Browse previous chats](./assets/images/side-drawer.png)
+<picture>
+  <source srcset="./assets/images/side-drawer-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/side-drawer.png">
+</picture>
 
 # Think Big!
 Today, we’ll see how AI can help plan a weekend getaway — and in the process, you’ll discover how it breaks big tasks into smaller, manageable steps, suggests timelines, and offers alternative options. We’ll start with a **fictional** plan, but if you have something specific — like an upcoming holiday, event, or hectic week — you can choose your own adventure.
