@@ -1,53 +1,76 @@
-# Fact-checking
-**Fake news!** Today’s lesson focuses on using AI for effective research. In a world where news is distilled into soundbites and major media often lean toward particular narratives — finding a balanced perspective can be challenging. With ChatGPT, we can harness AI to prioritize accuracy, credibility, and a neutral outlook.
+# Fact-Checking
+By now, you might be wondering “Is AI always right?” or “Can I trust the answers I’m getting?”. Both excellent questions, and the short answer is **no** — AI is not always correct.
 
-Today we’ll learn how to use AI to evaluate sources through examples and evidence, fact-check topics by cross-referencing sources, and use citations effectively. Importantly, we’ll leverage AI’s neutrality for unbiased insights.
+AI processes vast amounts of data, making predictions and assumptions based on what you provide. While that makes it a powerful tool, it also means AI can sometimes generate misleading, outdated, or even entirely incorrect information. Unlike a search engine, it doesn’t directly pull from a single verified source — it pulls information from a varity of sources, then attempts to make sense of it based on it’s training alghorithms. Simply... it’s complex, and it can lead to errors.
 
-# 🗺 Guidelines
-When researching, distinguishing reliable information from misleading content is essential. AI can expedite and improve research quality, ensuring it meets high standards. Here’s how to avoid misinformation:
+Today, we’ll dig into how to tell if AI is actually giving you the right information. We’ll cover how to check its answers for accuracy, get it to back up its claims with evidence and examples, and use citations and cross-referencing to fact-check anything that seems questionable. The goal isn’t just to take AI’s responses at face value but to learn how to challenge them and make sure they hold up!
 
-### Effective prompting ✏️
-The clarity and depth of your questions affect research quality. Frame questions precisely and specify the type of evidence you need (e.g., historical data, scientific findings, statistics).
+## Trusting AI
+Think of AI like a well-meaning friend: It gives answers confidently, but that doesn’t always mean it’s right. If something feels *off*, trust your instincts and verify the information. Luckily, AI can also help double-check itself — if you know how to ask the right questions.
 
-### Check your sources 🍝
-Seek information from credible sources (e.g., academic journals, government websites, respected news agencies). Use AI to compare details from multiple reputable sources for consistency.
+Here’s how to ensure accuracy when using AI:
 
-In fast-evolving fields, like technology or science, prioritize recent sources (preferably within the last five years).
+### Ask AI to Show Its Work
+Just like a good teacher would expect from a student, you can ask AI to provide sources, examples, or reasoning behind its answers. Try asking:
+
+> Can you provide sources for that?
+
+You could also ask *“What’s your reasoning behind this answer?”*, or even *“Are you sure?”*. This type of prompt often results in AI showing sources, which appear as small badges next to paragraphs `1` and a button at the bottom of the response `2`
+
+<picture>
+  <source srcset="./assets/images/fake-news-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/fake-news.png">
+</picture>
+
+Clicking on the sources badge reveals what AI used to form its answer, helping you judge how reliable the information really is:
+
+<picture>
+  <source srcset="./assets/images/sources-panel-dark.png" media="(prefers-color-scheme:dark)">
+  <img src="./assets/images/sources-panel.png">
+</picture>
+
+For peace of mind, ChatGPT generally pulls from reputable sources—government websites, educational institutions, mainstream news organizations, scientific and academic journals, and specialized resources for certain topics, like Investopedia for finance or historical archives for historical queries. 
+
+```
+Even trusted sources can have biases or outdated information, so it’s always worth verifying key facts yourself.
+```
+
+### Use Effective Prompting
+The way you ask a question also affects the accuracy of the response. Broad or vague questions lead to broad and vague answers. For fact-checking, be precise in your wording and request specific types of evidence, such as:
+
+- 📗 **Historical Data**: “What do historical records say about this?”
+- 🧑‍🔬 **Scientific Findings**: “Are there peer-reviewed studies supporting this?”
+- 📈 **Statistics**: “Can you provide data from a reliable source?”
+
+As an example, instead of *“Tell me about climate change.”* — which is very broad — you could try:
+
+> Summarize the key findings from the most recent IPCC climate report and include sources.
+
+*** 
+
+## Using AI for Fact-Checking
+Now that we’ve covered how to fact-check AI, let’s flip it around and use AI to fact-check other sources — like the news. 
+
+In a world where headlines are engineered for clicks, news is reduced to soundbites, and major media outlets often lean into specific narratives, separating fact from “fake news” can feel overwhelming. AI can help cut through the noise by prioritizing accuracy, credibility, and neutrality. Here’s how:
+
+### 🔍 Compare Headlines Across Sources
+If you read a news article from one outlet, AI can help you see how *other* sources are reporting on the same story:
+
+> Can you summarize multiple perspectives on recent reports about {{event}}
+
+This helps reveal media bias and gives you a clearer picture of the facts behind the headlines. You can also paste an entire article and ask:
+
+> List the facts from this article, and provide credible sources to support or refute them: {{paste article}}
+
+### 🎭 Identify Deepfakes & Fake Quotes
+Misinformation spreads fast, especially when it comes to misattributed quotes or fake videos. AI can check whether a public figure actually said something and provide the full context. Here’s a surprising example:
+
+> Did Kanye West really say “I am a Nazi”? If so, what’s the context?
+
+This allows you to form your own opinion based on facts rather than relying solely on news outlets or viral posts.
 
 ***
 
-## Let’s get controversial!
-Feel free to grab the nearest hot-button topic from your favourite news outlet. Or perhaps try:
+By leveraging AI’s neutrality and its ability to analyze multiple sources simultaneously, you can use it as a powerful fact-checking tool — not to **replace** your own critical thinking, but to **enhance** it.
 
-> I heard that crime rates in the UK are rising due to “soft” sentencing. Help me research this topic
-
-**Or**
-
-> Compare the economic impact of renewable energy investments over the past decade to fossil fuel subsidies. Which has shown more long-term benefits?
-
-```
-When ChatGPT provides responses with a blue ❝ icon, this indicates that the answer includes citations — click on these to view sources for transparency:
-```
-
-![Exposing citations](./assets/images/citation.png)
-
-ChatGPT generally uses reliable sources: Government websites (e.g., NHS, CDC, Gov.uk), educational institutions, mainstream news organizations (e.g., BBC, Reuters, The Guardian, or other well-established news outlets), scientific and academic journals and specialized resources in topics like finance or history, such as Investopedia.
-
-## Leaning into discomfort 🌶
-While the first answer might confirm your views, AI’s true value lies in presenting neutral perspectives. Follow up with questions like:
-
-> Is there any evidence to the contrary?
-
-To deepen your understanding, explore cited sources, bring relevant quotes back to the chat, and scrutinize facts by cross-referencing.
-
-Of course, you might just end down an AI 🕳️🐇 which might not be a terrible thing when trying to understand a hot topic.
-
-> Present data showing how different criminal justice policies impact recidivism rates
-
-## Wrapping it up 👽
-The key to unlocking AI’s potential is curiosity, critical thinking, and a healthy dose of skepticism. And to end on a lighter note, try:
-
-> Help me convince an alien that Earth is worth visiting.
-
-Let me know what you ended up digging into.
-**Happy researching!**
+Ultimately, the more you question and verify... the more useful AI becomes!

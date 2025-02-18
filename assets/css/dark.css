@@ -61,16 +61,22 @@ div.prompt .contents h4 {
   color: var(--base);
 }
 ul.training li.lesson .contents p,
-div.prompt .contents p {
+div.prompt .contents p,
+ul.training li.lesson .contents li,
+div.prompt .contents li {
   color: var(--clay-300);
 }
 ul.training li.lesson .contents p strong,
-div.prompt .contents p strong {
+div.prompt .contents p strong,
+ul.training li.lesson .contents li strong,
+div.prompt .contents li strong {
   color: var(--base);
 }
 ul.training li.lesson .contents p code,
-div.prompt .contents p code {
-  border-color: var(--purple-500);
+div.prompt .contents p code,
+ul.training li.lesson .contents li code,
+div.prompt .contents li code {
+  border-color: #36FF8D;
   background: rgba(0, 0, 0, 0.9);
   color: var(--clay-100);
 }

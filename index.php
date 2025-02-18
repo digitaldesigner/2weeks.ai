@@ -1,5 +1,5 @@
 <?php
-	define('version','?version=9.7');
+	define('version','?version=9.8');
 	function getMarkdownFilesContent($directory) {
 	    $files = glob($directory . '/*.md');
 	    $contentArray = [];
@@ -63,7 +63,7 @@
 			$title = "Day ".$lessonNumber;
 			if($lessonNumber == 0) { $title = "Welcome"; }
 			
-			$latest = 12;
+			$latest = 13;
 			
 			if($lessonNumber<$latest) {
 				echo "

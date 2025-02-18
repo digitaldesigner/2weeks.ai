@@ -969,14 +969,15 @@ div.prompt .contents::after {
   color: transparent;
   background: url('../images/check.svg') center no-repeat #ffffff;
 }
-.contents p code {
+.contents p code,
+.contents li code {
   font-size: 90%;
   font-weight: normal;
-  background: #EBF5FF;
-  border: 1px solid #9ECBFF;
-  color: #304DDB;
+  background: #e8fff2;
+  border: 1px solid #36FF8D;
+  color: #111;
   padding: 3px 8px;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 .contents pre {
   background: var(--green-100);

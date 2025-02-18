@@ -84,7 +84,7 @@ See how much you’ve learned by asking AI to quiz you:
 If you miss a question, don’t worry — AI can explain the correct answer to help reinforce your learning.
 
 ## 📝 Summarize & Get Homework
-If you’re returning to a topic, or a quiz isn’t your speed — you can AI for a summary and a way to keep learning:
+If you’re returning to a topic, or a quiz isn’t your speed — you can ask AI for a summary and a way to keep learning:
 
 > Summarize everything we’ve discussed on this topic, and give me some homework to go deeper.
 

@@ -21,13 +21,13 @@ AI apps are incredibly simple, usually just consisting of a text box where you c
   <img src="./assets/images/app-tour.png">
 </picture>
 
-1. **App Menu** – This is where you’ll find all your previous conversations and access your settings. We’ll explore this later.
-2. **Chat Tools** – These let you manage the current chat, such as sharing or deleting it. The number refers to the AI model you're using, but you probably won’t need to adjust this.
-3. **New or Temporary Chat** – In a new chat, this icon will enable you to switch between private (chats won't be saved) and normal mode. If you're already in a chat, this icon will let you start a new one. It’s a good idea to start a new chat whenever the topic moves on to something new.
-4. **Add** – Use this icon to add photos or files to provide extra context in a conversation. We’ll dive into this feature later on.
-5. **Message** – This is where you type your message, just like in Messenger or iMessage. Only here, you’re chatting with an AI.
-6. **Mode** – Search mode is sometimes available and allows you to perform more of a direct search, like you would with Google.  
-7. **Audio** – Tap this to speak to AI, instead of typing. We’ll cover this feature in more detail later, but feel free to give it a try!
+- `1` **App Menu** – This is where you’ll find all your previous conversations and access your settings. We’ll explore this later.
+- `2` **Chat Tools** – These let you manage the current chat, such as sharing or deleting it. The number refers to the AI model you're using, but you probably won’t need to adjust this.
+- `3` **New or Temporary Chat** – In a new chat, this icon will enable you to switch between private (chats won't be saved) and normal mode. If you're already in a chat, this icon will let you start a new one. It’s a good idea to start a new chat whenever the topic moves on to something new.
+- `4` **Add** – Use this icon to add photos or files to provide extra context in a conversation. We’ll dive into this feature later on.
+- `5` **Message** – This is where you type your message, just like in Messenger or iMessage. Only here, you’re chatting with an AI.
+- `6` **Mode** – Search mode is sometimes available and allows you to perform more of a direct search, like you would with Google.  
+- `7` **Audio** – Tap this to speak to AI, instead of typing. We’ll cover this feature in more detail later, but feel free to give it a try!
 
 ***
 
