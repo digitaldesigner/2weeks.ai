@@ -63,7 +63,7 @@
 			$title = "Day ".$lessonNumber;
 			if($lessonNumber == 0) { $title = "Welcome"; }
 			
-			$latest = 11;
+			$latest = 12;
 			
 			if($lessonNumber<$latest) {
 				echo "
