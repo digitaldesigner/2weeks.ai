@@ -63,7 +63,7 @@
 			$title = "Day ".$lessonNumber;
 			if($lessonNumber == 0) { $title = "Welcome"; }
 			
-			$latest = 13;
+			$latest = 14;
 			
 			if($lessonNumber<$latest) {
 				echo "
@@ -122,7 +122,7 @@
 			
 			<p>One thing has become clear: most AI conversations are written for those already deep in the space, leaving behind those with curiosity but no clear starting point.</p>
 			
-			<p>If you&rsquo;ve heard about AI but never used it, this course is for you. If you&rsquo;ve dabbled in AI but feel like you&rsquo;ve only scratched the surface, this course is for you!</p>
+			<p>If you&rsquo;ve heard about AI but never used it, this course is for you. If you&rsquo;ve dabbled in AI but feel like you&rsquo;ve only scratched the surface, <strong>this course is for you</strong>!</p>
 		</div>
 	</div>
 	
