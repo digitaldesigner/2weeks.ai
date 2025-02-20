@@ -25,7 +25,7 @@ You’ll notice that AI won’t always jump straight into an answer — it may a
 
 Today’s focus will be on health, so consider sharing details that might be relevant in that area. This could include dietary preferences, fitness goals, or any key lifestyle habits. The more relevant context you provide, the better AI can assist you.
 
-As you add information, you might notice a `Memory updated` message appear. This is a good sign — it means AI is remembering useful details to personalize its responses. If you ever want to review or delete these memories, just head to your Settings.
+As you add information, you might notice a **📝 Memory updated** message appear (below). This is a good sign — it means AI is remembering useful details to personalize its responses. If you ever want to review or delete these memories, just head to your Settings.
 
 <picture>
   <source srcset="./assets/images/memory-updated-dark.png" media="(prefers-color-scheme:dark)">
