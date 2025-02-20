@@ -1,7 +1,7 @@
 # Fact-Checking
 By now, you might be wondering “Is AI always right?” or “Can I trust the answers I’m getting?”. Both excellent questions, and the short answer is **no** — AI is not always correct.
 
-AI processes vast amounts of data, making predictions and assumptions based on what you provide. While that makes it a powerful tool, it also means AI can sometimes generate misleading, outdated, or even entirely incorrect information. Unlike a search engine, it doesn’t directly pull from a single verified source — it pulls information from a varity of sources, then attempts to make sense of it based on it’s training alghorithms. Simply... it’s complex, and it can lead to errors.
+AI processes vast amounts of data, making predictions and assumptions based on what you provide. While that makes it a powerful tool, it also means AI can sometimes generate misleading, outdated, or even entirely incorrect information. Unlike a search engine, it doesn’t directly pull from a single verified source — it pulls information from a variety of sources, then attempts to make sense of it based on it’s training algorithms. Simply... it’s complex, and it can lead to errors.
 
 Today, we’ll dig into how to tell if AI is actually giving you the right information. We’ll cover how to check its answers for accuracy, get it to back up its claims with evidence and examples, and use citations and cross-referencing to fact-check anything that seems questionable. The goal isn’t just to take AI’s responses at face value but to learn how to challenge them and make sure they hold up!
 

@@ -19,6 +19,9 @@
 <head>
   <meta charset="utf-8">
   <title>2 Weeks AI</title>
+	<meta name="robots" content="index,follow,archive"/>
+	<meta name="Description" content="A beginner-friendly guide for AI newcomers — and a power-up for enthusiasts!" />
+	<meta name="Keywords" content="AI online learning easy beginner 2-weeks basics bootcamp" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
   <link rel="preconnect" href="//fonts.googleapis.com">
@@ -29,6 +32,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="2 Weeks AI">
+  <meta name="description" content="“A beginner-friendly guide for AI newcomers — and a power-up for enthusiasts!”">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/appicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -37,7 +41,7 @@
   <meta property="og:url" content="https://2weeks.ai/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="2 Weeks AI">
-  <meta property="og:description" content="A 2 week AI online course, from novice to AI proficient">
+  <meta property="og:description" content="“A beginner-friendly guide for AI newcomers — and a power-up for enthusiasts!”">
   <meta property="og:image" content="https://2weeks.ai/assets/images/cover.png">
 	<script src="https://cdn.usefathom.com/script.js" data-spa="auto" data-site="QGGXGFCW" defer></script>
 </head>
@@ -96,13 +100,13 @@
 		<a href='javascript://' class='dismiss'><em>&#215;</em></a>
 		<span class='locked-badge'>About</span>
 		<div class='contents'>
-			<p><strong>2 Weeks AI</strong> was created and written by Buzz Usborne. Originally designed as a private course for his dad&rsquo;s 75th birthday, it quickly gained traction as more people asked for access. Turns out, making AI fun, non-technical, and grounded in real-world use benefits everyone—from schoolkids to retirees, self-proclaimed AI natives to the completely AI-curious.</p>
+			<p><strong>2 Weeks AI</strong> was created and written by Buzz Usborne. Originally designed as a private course for his dad&rsquo;s 75th birthday, it quickly gained traction as more people asked for access. Turns out, making AI fun, non-technical, and grounded in real-world use benefits everyone &mdash; from students to retirees, the AI curious to self-proclaimed AI natives.</p>
 			
 			<blockquote>If you found this course useful, please consider donating a coffee to help keep it online!<a href="https://buymeacoffee.com/buzz/" target="_blank" title="Donate a coffee" class="button">Donate a coffee!</a></blockquote>
 			
-			<p><a href="https://buzzusborne.com/" target="_blank" title="Buzz Usborne">Buzz</a> is a coach, startup advisor, and software designer, giving him a unique perspective on AI—seeing it from the lens of the companies building it, the designers shaping it, and the everyday people using it.</p>
+			<p><a href="https://buzzusborne.com/" target="_blank" title="Buzz Usborne">Buzz</a> is a coach, startup advisor and software designer, giving him a unique perspective on AI &mdash; seeing it from the lens of the companies building it, the designers shaping it, and the everyday people using it.</p>
 			
-			<p>One thing has become clear: most AI conversations are written for those already deep in the space, leaving behind those with curiosity but no clear starting point.</p>
+			<p>One thing has become clear: most AI guides are written for those already deep in the space, leaving behind people with curiosity but no clear starting point.</p>
 			
 			<p>If you&rsquo;ve heard about AI but never used it, this course is for you. If you&rsquo;ve dabbled in AI but feel like you&rsquo;ve only scratched the surface, <strong>this course is for you</strong>!</p>
 		</div>

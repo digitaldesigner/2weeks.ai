@@ -63,7 +63,7 @@ Of course, as you read you might come across concepts you don’t fully grasp �
 ## 🎭 Activities & Experiences
 Reading is great, but hands-on learning can be another powerful way to solidify your understanding. AI can suggest practical activities, experiments, or real-world experiences to reinforce what you’re learning:
 
-> Are there any practical activites or experiments I can try that will help me understand this concept a little better?
+> Are there any practical activities or experiments I can try that will help me understand this concept a little better?
 
 Or even:
 

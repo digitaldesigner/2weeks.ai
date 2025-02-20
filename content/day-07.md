@@ -55,7 +55,7 @@ You could even ask for insight into the document itself, like checking for hidde
 > Is there anything unusual in this contract that I should be aware of?
 
 ### 🤓 Common Sense Contracts
-Like terms and conditions, anything that’s written in unecessarily complicated legal terms can be easily translated into plain language by AI. Things like employment contracts, mortgages, and rental agreements become documents you can query:
+Like terms and conditions, anything that’s written in unnecessarily complicated legal terms can be easily translated into plain language by AI. Things like employment contracts, mortgages, and rental agreements become documents you can query:
 
 > What are the consequences of breaking this lease after six months?
 

@@ -48,7 +48,7 @@ Here are some powerful ways AI can help:
 - 📜 **Decipher Ancient or Unreadable Text** — Upload a faded document or ancient script, and AI can attempt to translate or restore the writing.
 - 🌸 **Identify Plants & Flowers** — Not sure what you’re looking at? Snap a picture of a plant, and AI can tell you what it is and even provide care tips.
 - 🔢 **Count Large Groups of Objects** — Need a fast way to tally items in a crowded image? AI can scan and count them for you.
-- 🔎 **Enhance & Unblur Photos** — AI can often restore or sharpen blurry images, bringing out details you couldn’t see before.
+- 🔎 **Enhance & Un-blur Photos** — AI can often restore or sharpen blurry images, bringing out details you couldn’t see before.
 - 🌍 **Instant Translation** — Upload a street sign or restaurant menu and get AI to translate it instantly.
 
 ### To Describe
