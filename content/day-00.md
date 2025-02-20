@@ -3,8 +3,7 @@ Welcome to **2 Weeks AI**, a crash course for total beginners and a power-up for
 
 Over the next two weeks, we'll dive into simple, bite-sized lessons — guiding you step by step from complete beginner to confidently using AI in your daily life. No tech skills required — just a sense of curiosity!
 
-<div class="wistia">
-<script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/3zigqfu4hd.js" async type="module"></script><style>wistia-player[media-id='3zigqfu4hd']:not(:defined) { min-height:100px; background:red; display: block; }</style><wistia-player media-id="3zigqfu4hd" seo="false" aspect="0.5625"></wistia-player>
+<script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/3zigqfu4hd.js" async type="module"></script><style>wistia-player[media-id='3zigqfu4hd']:not(:defined) { min-height:100px; display: flex; }</style><wistia-player media-id="3zigqfu4hd" seo="false" aspect="0.5625"></wistia-player>
  
 # What to Expect
 Each day, you’ll explore a new AI topic with fresh ideas and hands-on ways to use AI beyond the basics. The lessons build on each other, growing in complexity, but there’s no pressure — go at your own pace or skip ahead if you’re curious!
