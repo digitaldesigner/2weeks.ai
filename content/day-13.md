@@ -150,3 +150,5 @@ AI can help you analyze the message, check for common scam tactics, and offer ad
 AI isn’t just a tool — it can be a creative partner, translator, tech assistant, and more. You’ve now explored a range of AI applications, but this is just the beginning.
 
 The more you play, the more you’ll discover.
+
+<!-- Read time: 7 mins -->

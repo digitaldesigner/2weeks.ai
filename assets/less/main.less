@@ -450,6 +450,7 @@ div.prompt {
       display:flex;
       align-items:center;
       justify-content:center;
+      cursor:pointer;
       
       i {
         margin-left:0px;
@@ -459,8 +460,8 @@ div.prompt {
         background:rgba(255,255,255,0.3);
       	-webkit-animation: gesture 3s ease-in-out infinite 1s both;
       	        animation: gesture 3s ease-in-out infinite 1s both;
-        
       }
+      display:none;
     }
   }
   
@@ -914,6 +915,15 @@ li.expose {
   }
 }
 
+// Mobile only
+@media (max-width: 800px) {
+  ul.training li.lesson.intro .swipe,
+  div.prompt.intro .swipe {
+    display:flex;
+  }
+}
+
+// Desktop
 @media only screen and (min-width: 600px) {
 
   ul.training {

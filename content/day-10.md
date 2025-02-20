@@ -61,3 +61,5 @@ Finally, if all of this feels a bit heavy for today — try uploading a photo an
   <source srcset="./assets/images/caption-dark.png" media="(prefers-color-scheme:dark)">
   <img src="./assets/images/caption.png">
 </picture>
+
+<!-- Read time: 3 mins -->

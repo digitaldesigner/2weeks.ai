@@ -678,6 +678,8 @@ div.prompt.intro .swipe {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  display: none;
 }
 ul.training li.lesson.intro .swipe i,
 div.prompt.intro .swipe i {
@@ -1144,6 +1146,12 @@ li.expose h1 {
     filter: blur(4px);
     opacity: 0;
     z-index: -1;
+  }
+}
+@media (max-width: 800px) {
+  ul.training li.lesson.intro .swipe,
+  div.prompt.intro .swipe {
+    display: flex;
   }
 }
 @media only screen and (min-width: 600px) {

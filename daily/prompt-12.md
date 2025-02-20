@@ -4,4 +4,3 @@
 - Entropy
 - Cognitive bias
 - Different types of infinity
-- Wave-particle duality (the "double slit experiment")

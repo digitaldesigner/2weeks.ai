@@ -91,3 +91,5 @@ And just like that, you’ve turned AI into your very own planning sidekick! Now
 ```
 Planning not your thing? Try "Can you give me a convincing excuse for why I can’t attend Thanksgiving dinner?"
 ```
+
+<!-- Read time: 5 mins -->

@@ -73,3 +73,5 @@ If you haven’t experimented with AI’s image capabilities yet, now’s the ti
 Other variations on this are to **roast your friends** — where you upload a group photo and ask AI for the most ridiculous captions. You could assign 1920s gangster names to old family pictures, or ask AI to write a diary entry from your pet’s perspective based on their expression.
 
 Happy snapping!
+
+<!-- Read time: 4 mins -->

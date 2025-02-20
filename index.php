@@ -1,5 +1,5 @@
 <?php
-	define('version','?version=9.8');
+	define('version','?version=1.1');
 	function getMarkdownFilesContent($directory) {
 	    $files = glob($directory . '/*.md');
 	    $contentArray = [];
@@ -63,10 +63,9 @@
 			$title = "Day ".$lessonNumber;
 			if($lessonNumber == 0) { $title = "Welcome"; }
 			
-			$latest = 14;
+			$latest = 15;
 			
-			if($lessonNumber<$latest) {
-				echo "
+			echo "
 	  
 				<li class='lesson' id='lesson-".$lessonNumber."'>
 					<a href='javascript://' draggable='false' class='expander'>&#215;</a>
@@ -80,24 +79,7 @@
 						<span>Mark as complete</span>
 					</label>
 				</li>
-				";
-			} elseif($lessonNumber==($latest+1)){
-				echo "
-	  
-				<li class='lesson locked' id='lesson-".$lessonNumber."'>
-					<span class='locked-badge'>Coming soon</span>
-					<div class='header'>
-						<h5>".$title."</h5>
-					</div>
-					<textarea class='markdown-file'>".htmlspecialchars($content)."</textarea>
-					<div class='contents overflow'></div>
-					<label>
-						<input type='checkbox' class='complete-task'>
-						<span>Mark as complete</span>
-					</label>
-				</li>
-				";
-			}
+			";
 
 	  endforeach;
 	?>
@@ -106,7 +88,7 @@
 
 	<div class="prompt" id="daily">
 		<a href='javascript://' class='dismiss'><em>&#215;</em></a>
-		<span class='locked-badge'>Daily Prompt &#8470; <em id="prompt-number"></em></span>
+		<span class='locked-badge'>&#8470; <em id="prompt-number"></em></span>
 		<div class='contents' id="daily-file">Er...</div>
 	</div>
 	

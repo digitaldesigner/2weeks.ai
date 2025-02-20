@@ -74,3 +74,5 @@ This allows you to form your own opinion based on facts rather than relying sole
 By leveraging AI’s neutrality and its ability to analyze multiple sources simultaneously, you can use it as a powerful fact-checking tool — not to **replace** your own critical thinking, but to **enhance** it.
 
 Ultimately, the more you question and verify... the more useful AI becomes!
+
+<!-- Read time: 4 mins -->

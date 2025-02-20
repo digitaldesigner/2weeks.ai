@@ -113,3 +113,5 @@ When you want to continue learning, go back to the same chat `2` — this way, A
   <source srcset="./assets/images/learning-side-drawer-dark.png" media="(prefers-color-scheme:dark)">
   <img src="./assets/images/learning-side-drawer.png">
 </picture>
+
+<!-- Read time: 4 mins -->

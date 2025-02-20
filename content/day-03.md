@@ -69,3 +69,5 @@ Roles are only limited by your imagination, so you can have some fun:
 - 🚀 "You're a time traveler from the year 3025. Describe what people were like 100 years ago."
 - 🫠 "You're a conspiracy theorist. Tell me something about coffee the mainstream media don't want us to know!"
 - 🤖 "You're a corporate buzzword generator. Describe me."
+
+<!-- Read time: 4 mins -->
