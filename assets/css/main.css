@@ -232,7 +232,6 @@ div.loader {
   align-items: center;
   justify-content: center;
   transition: background 1s;
-  opacity: 0;
 }
 div.loader .logo {
   position: relative;
