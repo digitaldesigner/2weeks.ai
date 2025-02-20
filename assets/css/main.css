@@ -232,6 +232,7 @@ div.loader {
   align-items: center;
   justify-content: center;
   transition: background 1s;
+  opacity: 0;
 }
 div.loader .logo {
   position: relative;
@@ -445,6 +446,13 @@ div.prompt .contents video {
 ul.training li.lesson .contents video.dark,
 div.prompt .contents video.dark {
   display: none;
+}
+ul.training li.lesson .contents div.wistia,
+div.prompt .contents div.wistia {
+  background: var(--clay-200);
+  border-radius: 6px;
+  width: 100%;
+  min-height: 100px;
 }
 ul.training li.lesson .contents div.embed,
 div.prompt .contents div.embed {
@@ -1041,6 +1049,10 @@ li.expose .contents p a {
 }
 li.expose h1 {
   margin-top: 20px;
+}
+ul.training li.lesson .contents p:nth-child(2) {
+  font-size: 16px;
+  line-height: 28px;
 }
 @-webkit-keyframes spin-hue {
   0% {

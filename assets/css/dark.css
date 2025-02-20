@@ -88,6 +88,8 @@ ul.training li.lesson .contents video.dark,
 div.prompt .contents video.dark {
   display: block;
 }
+ul.training li.lesson .contents div.wistia,
+div.prompt .contents div.wistia,
 ul.training li.lesson .contents div.embed,
 div.prompt .contents div.embed,
 ul.training li.lesson .contents div.video,
