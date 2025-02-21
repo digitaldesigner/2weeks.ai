@@ -123,19 +123,22 @@ $(document).ready(function() {
     $('#bump').click(function(){ scrollToNextLesson(); });
     
     // Parse the contents
-		$('.markdown-file').each(function() {
-			var markdownContent = $(this).val();
-			const renderer = new marked.Renderer();
+		$('.fetchmd').each(function() {
+      
+      const markdownFilePath = $(this).attr('data-src');
+      // Start
+      fetch(markdownFilePath).then(response => response.text()).then(markdownContent => {
+          const renderer = new marked.Renderer();
+    			renderer.blockquote = function(text) {
+    				return '<blockquote>' + text.text+ '<button class="gpt">Try</button></blockquote>';
+    			};
 
-			renderer.blockquote = function(text) {
-				return '<blockquote>' + text.text+ '<button class="gpt">Try</button></blockquote>';
-			};
-
-			marked.use({ renderer });
-			$(this).parent().find('.contents').hide().html(marked.parse(markdownContent)).delay(200).fadeIn(200);
-			$(this).fadeOut(200,function(){
-				$(this).remove();
-			});
+    			marked.use({ renderer });
+    			$(this).html(marked.parse(markdownContent));
+      })
+      .catch(error => console.error("Error fetching lesson:", error));
+      // End
+      
 		});
 
     // Mark item as completed on checkbox click

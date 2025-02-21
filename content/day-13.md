@@ -1,5 +1,5 @@
 # Beyond the Basics
-Over the past two weeks, you’ve discovered the power of AI — learning how to ask better questions, add context, plan, research, and challenge your own thinking. As you might imagine, we’ve only scratched the surface — fortunately the skills you’ve gained will help you adapt and experiment as AI capabilities continue to evolve.
+As you might imagine, we’ve only scratched the surface of what AI is capable of. Fortunately, the foundational skills you’ve gained during this course will help you adapt and experiment as you continue exploring AI tools.
 
 Today, we’re taking a quick tour of some fascinating AI applications we haven’t explored yet — things like storytelling, translation, parenting tips, and even therapy. Each of these could be an entire course on its own, but this lesson will give you a taste of what’s possible and some avenues to explore!
 
