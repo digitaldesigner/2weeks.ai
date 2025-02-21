@@ -7,14 +7,14 @@ Today we’ll start with a new chat, but if you revisit this lesson later, you c
 
 <picture>
   <source srcset="./assets/images/side-drawer-location-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/side-drawer-location.png">
+  <img class="lazyload" data-src="./assets/images/side-drawer-location.png" />
 </picture>
 
 From here you an jump to a previous chat and continue the conversation:
 
 <picture>
   <source srcset="./assets/images/side-drawer-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/side-drawer.png">
+  <img class="lazyload" data-src="./assets/images/side-drawer.png" />
 </picture>
 
 # Think Big!

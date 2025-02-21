@@ -53,7 +53,7 @@ Whether you use it to brainstorm ideas, learn something new, or simply have a bi
 
 <picture>
   <source srcset="./assets/images/daily-prompt-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/daily-prompt.png">
+  <img class="lazyload" data-src="./assets/images/daily-prompt.png" />
 </picture>
 
 <!-- Read time: 4 mins -->

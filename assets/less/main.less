@@ -610,6 +610,17 @@ div.prompt .contents {
     width:100%;
   }
   
+	img:-moz-broken{
+	  opacity: 0;
+  }
+	img.lazyload {
+		opacity:0;
+		transition:all 0.2s ease-out;
+	}
+	img.lazyloaded {
+		opacity:1;
+	}
+  
   strong {
     font-weight:600;
     color:var(--charcoal-1000);

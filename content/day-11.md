@@ -104,14 +104,14 @@ When starting a new topic, start a new chat `1` so AI can focus on that subject 
 
 <picture>
   <source srcset="./assets/images/return-to-chat-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/return-to-chat.png">
+  <img class="lazyload" data-src="./assets/images/return-to-chat.png" />
 </picture>
 
 When you want to continue learning, go back to the same chat `2` — this way, AI remembers your progress and builds on what you’ve already discussed:
 
 <picture>
   <source srcset="./assets/images/learning-side-drawer-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/learning-side-drawer.png">
+  <img class="lazyload" data-src="./assets/images/learning-side-drawer.png" />
 </picture>
 
 <!-- Read time: 4 mins -->

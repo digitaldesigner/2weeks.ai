@@ -116,7 +116,9 @@
 	
 	<script src="//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-	<script src="//cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js" async=""></script>
 	<script src="assets/js/site.js<?=version?>"></script>
+	<script src="assets/js/lazysizes.min.js" async=""></script>
+	<script src="assets/js/ls.unveilhooks.min.js" async=""></script>
 </body>
 </html>

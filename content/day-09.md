@@ -8,7 +8,7 @@ Before we dive into today’s lesson, there’s an uncomfortable but important r
 
 <picture>
   <source srcset="./assets/images/confidently-incorrect-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/confidently-incorrect.png">
+  <img class="lazyload" data-src="./assets/images/confidently-incorrect.png">
 </picture>
 
 AI responses can **sound** authoritative, but that doesn’t mean they’re always correct. Like people, AI can misunderstand context, make logical errors, or even confidently provide incorrect information.
@@ -35,7 +35,7 @@ We can ask AI to break down decisions into clear trade-offs by listing the pros 
 
 <picture>
   <source srcset="./assets/images/pros-cons-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/pros-cons.png">
+  <img class="lazyload" data-src="./assets/images/pros-cons.png">
 </picture>
 
 ## 🤔 Simulating Outcomes

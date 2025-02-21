@@ -54,8 +54,28 @@ $(document).ready(function() {
       }
     }
     
-    $('#bump').click(function(){ scrollToNextLesson(); });
-    
+    // Load YouTube videos only when asked
+    function loadYouTubeEmbed(element) {
+        var videoId = $(element).attr("data-video-id");
+        if (!videoId) { return; }
+        var iframe = $("<iframe>", {
+            src: "https://www.youtube.com/embed/" + videoId + "?autoplay=0",
+            frameborder: 0,
+            allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+            allowfullscreen: true,
+            css: {
+              width: "100%",
+              height: "100%"
+            }
+        });
+        $(element).html(iframe);
+    }
+    function checkLazyVideos() {
+        $(".embed").each(function () {
+          loadYouTubeEmbed(this);
+        });
+    }
+        
     // Daily prompts
     function showDailyPrompt(){
       var countTotalLessons = $('#todo-list .lesson').not('.intro').length;
@@ -98,6 +118,9 @@ $(document).ready(function() {
         });
       }
     }
+    
+    // Use the tap indicator to jump to the next lesson
+    $('#bump').click(function(){ scrollToNextLesson(); });
     
     // Parse the contents
 		$('.markdown-file').each(function() {
@@ -196,6 +219,7 @@ $(document).ready(function() {
         $('#todo-list').toggleClass('modal');
         $(element).removeAttr('style').toggleClass('expose');
         $(element).find('.contents').stop().delay(300).fadeTo(400,1);
+        checkLazyVideos();
         
         if(element[0]['id'] !== "lesson-0"){
           history.pushState(null, null, '#' + element[0]['id']);
@@ -294,6 +318,7 @@ $(document).ready(function() {
         $('li'+targetHash).addClass('expose');
         $('#todo-list').addClass('modal');
         $('body').addClass('expose');
+        checkLazyVideos();
       }      
     }
     
@@ -306,6 +331,7 @@ $(document).ready(function() {
         $('li'+targetHash).addClass('expose');
         $('#todo-list').addClass('modal');
         $('body').addClass('expose');
+        checkLazyVideos();
       }
     });
     
@@ -336,7 +362,7 @@ $(document).ready(function() {
     });
     
     $('#loader').addClass('ready');
-    
+
 });
 
 $(window).on('hashchange', function() {

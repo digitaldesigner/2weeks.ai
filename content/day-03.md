@@ -29,7 +29,7 @@ As you add information, you might notice a **📝 Memory updated** message appea
 
 <picture>
   <source srcset="./assets/images/memory-updated-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/memory-updated.png">
+  <img class="lazyload" data-src="./assets/images/memory-updated.png">
 </picture>
 
 ***
