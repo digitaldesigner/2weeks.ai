@@ -288,18 +288,7 @@ $(document).ready(function() {
       document.execCommand('copy');
       tempTextarea.remove();
       $(this).addClass('done');
-      
-      const chatgptAppUrl = 'chatgpt://chat?q=' + encodeURIComponent(textToCopy);
-      const chatgptWebUrl = 'https://chat.openai.com/?q=' + encodeURIComponent(textToCopy);
-      const startTime = Date.now();
-      const newWindow = window.open(chatgptAppUrl);
-      setTimeout(function() {
-          const elapsedTime = Date.now() - startTime;
-          if (elapsedTime < 1500) {
-              window.open(chatgptWebUrl, '_blank');
-          }
-      }, 1200);
-      
+      window.open('https://chat.openai.com/?q=' + encodeURIComponent(textToCopy));
       fathom.trackEvent('gpt shortcut');
     });
     
@@ -318,7 +307,7 @@ $(document).ready(function() {
         tempTextarea.remove();
         $(this).addClass('done');
         $(codeElement).select();
-        window.open('chatgpt://');
+        window.open('https://chat.openai.com/?q=' + encodeURIComponent(extractedText));
       }     
 
     });
