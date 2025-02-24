@@ -946,6 +946,32 @@ div.prompt .contents::after {
 .contents h4 {
   font-size: 18px;
 }
+.contents .tag {
+  display: flex;
+  width: 100%;
+  margin-top: -13px;
+}
+.contents .tag span {
+  margin: 0 0 0 -2px;
+  display: flex;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 6px 8px;
+  color: var(--clay-900);
+  background: var(--clay-100);
+}
+.contents .tag span.level-1 {
+  background: #bcf2ff;
+  color: #21164c;
+}
+.contents .tag span.level-2 {
+  background: #dfff9d;
+}
+.contents .tag span.level-3 {
+  background: #ffddf5;
+  color: #9d0d72;
+}
 .contents blockquote {
   box-sizing: border-box;
   border: 1px solid var(--clay-300);
@@ -1060,7 +1086,10 @@ li.expose .contents p a {
 li.expose h1 {
   margin-top: 20px;
 }
-ul.training li.lesson .contents p:nth-child(2) {
+li.expose .tag {
+  margin-top: -20px;
+}
+ul.training li.lesson .contents p:nth-child(3) {
   font-size: 16px;
   line-height: 28px;
 }

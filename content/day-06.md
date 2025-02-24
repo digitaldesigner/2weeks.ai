@@ -1,4 +1,6 @@
 # Using Images
+<div class="tag"><span class="level-2">Intermediate</span></div>
+
 AI isn’t just for text and voice — it can also analyze images and provide insights, making it a powerful tool for a wide range of tasks. While you may not use this feature every day, when you do, it’s pretty impressive!
 
 To add or upload an image, simply tap the plus `+` icon next to the message box. The options are similar across desktop and mobile AI tools.

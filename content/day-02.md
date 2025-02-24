@@ -1,4 +1,6 @@
 # Writing "Prompts"
+<div class="tag"><span class="level-1">Beginner</span></div>
+
 The biggest challenge in using AI effectively is knowing **when** to engage with it — because it’s different from what you’re used to with Google.
 
 Google is great when you need a quick **fact**, like the name of an actor or the currency used in Iceland. But AI shines when you have a **question** that needs exploration, a vague idea you want to develop, or a topic you’re curious about.

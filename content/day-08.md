@@ -1,4 +1,6 @@
 # Making Plans
+<div class="tag"><span class="level-2">Intermediate</span></div>
+
 Planning can be tough. Whether it’s **big plans** like vacations or events, **long-term goals** like fitness or learning, or **immediate tasks** like work deadlines, grocery trips, or simply structuring your day — keeping everything in order can feel overwhelming. AI can be useful in cutting through the chaos, helping you stay organized, and making smarter decisions.
 
 In every lesson so far, we’ve started a new chat to keep the context fresh and avoid confusing AI. But today’s lesson is a great example of when continuing an existing conversation can actually be helpful. By keeping your planning discussions in the same chat, AI can remember details, refine ideas, and build on past suggestions — just like a real assistant.

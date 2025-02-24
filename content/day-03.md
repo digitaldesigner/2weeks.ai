@@ -1,4 +1,6 @@
 # Adding Context
+<div class="tag"><span class="level-1">Beginner</span></div>
+
 Each time you talk to AI about a new topic, it’s best to start a fresh chat. This helps AI stay focused and prevents it from mixing topics together. To start a new chat, tap the pencil icon in the top right corner of the screen.
 
 Even if you’re already in the habit of doing this, a good rule of thumb is to open a fresh conversation each time you launch the app. This keeps your chats organized and ensures better responses.

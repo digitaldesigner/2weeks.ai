@@ -59,6 +59,23 @@ div.prompt .contents h3,
 ul.training li.lesson .contents h4,
 div.prompt .contents h4 {
   color: var(--base);
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+ul.training li.lesson .contents .tag span.level-1,
+div.prompt .contents .tag span.level-1 {
+  background: #592eff;
+  color: #e2dbff;
+}
+ul.training li.lesson .contents .tag span.level-2,
+div.prompt .contents .tag span.level-2 {
+  background: #13533c;
+  color: #6ad1a8;
+}
+ul.training li.lesson .contents .tag span.level-3,
+div.prompt .contents .tag span.level-3 {
+  color: #fd80d8;
+  background: #57003d;
 }
 ul.training li.lesson .contents p,
 div.prompt .contents p,

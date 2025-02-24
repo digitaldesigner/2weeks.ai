@@ -39,6 +39,25 @@ div.prompt {
      
      h1,h2,h3,h4 { 
       color:var(--base); 
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+     }
+     
+     .tag {
+       span {
+         &.level-1 {
+           background:#592eff;
+           color:lighten(#baa8ff,10%);
+         }
+         &.level-2 {
+           background:#13533c;
+           color:#6ad1a8;
+         }
+         &.level-3 {
+           color:#fd80d8;
+           background:#57003d;
+         }
+       }
      }
      
      p,li {

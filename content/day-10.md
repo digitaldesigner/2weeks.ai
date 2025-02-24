@@ -1,4 +1,6 @@
 # Writing & Re-Writing
+<div class="tag"><span class="level-3">Advanced</span></div>
+
 AI can be a useful writing sidekick — it can draft emails, simplify long articles, translate foreign text, and create simple summaries. We haven’t covered this yet because, chances are, you’re already using AI for writing in some way through apps like Gmail, iPhone notifications, or even auto-suggestions in search bars.
 
 But here’s the thing: while AI **can** spit out a poem about geese, an essay on nuclear fusion, or even working code for an app, it’s not a replacement for your creativity. AI works best as a tool to assist your thinking, not as a shortcut to expertise (that’s your job).

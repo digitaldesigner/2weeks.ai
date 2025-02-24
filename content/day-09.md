@@ -1,4 +1,6 @@
 # Decision Making
+<div class="tag"><span class="level-2">Intermediate</span></div>
+
 In our last lesson, we explored **Planning** — where we used AI to go beyond simple Q&A by exploring ideas, breaking down goals, and creating a roadmap to achieve them. Today, we’re building on that by diving into **Decision Making** — where AI can be used to help weigh options, analyze trade-offs, and choose the best path forward.
 
 If planning is about asking, *“How do I get from A to B?”*, then decision making is about asking, *“Should I take Path A or Path B?”*. The ideas is to use AI to make faster, smarter, and more objective decisions — removing guesswork and bias along the way.

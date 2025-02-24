@@ -1,4 +1,6 @@
 # Introduction 👋
+<div class="tag"><span class="level-1">Beginner</span></div>
+
 Welcome to **2 Weeks AI**, a crash course for total beginners and a power-up for enthusiasts. 
 
 Over the next two weeks, we'll dive into simple, bite-sized lessons — guiding you step by step from complete beginner to confidently using AI in your daily life. No tech skills required — just a sense of curiosity!

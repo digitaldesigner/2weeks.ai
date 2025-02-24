@@ -1,4 +1,6 @@
 # Fact-Checking
+<div class="tag"><span class="level-3">Advanced</span></div>
+
 By now, you might be wondering “Is AI always right?” or “Can I trust the answers I’m getting?”. Both excellent questions, and the short answer is **no** — AI is not always correct.
 
 AI processes vast amounts of data, making predictions and assumptions based on what you provide. While that makes it a powerful tool, it also means AI can sometimes generate misleading, outdated, or even entirely incorrect information. Unlike a search engine, it doesn’t directly pull from a single verified source — it pulls information from a variety of sources, then attempts to make sense of it based on it’s training algorithms. Simply... it’s complex, and it can lead to errors.

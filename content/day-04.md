@@ -1,4 +1,6 @@
 # Getting Opinionated
+<div class="tag"><span class="level-1">Beginner</span></div>
+
 Over the past few lessons, we’ve explored how to craft effective prompts, assign roles to AI, ask follow-up questions, and personalize responses for better results.
 
 So far, we’ve used AI when we already had a clear idea of the outcome — like getting an answer to a question or generating a workout plan. But AI isn’t just a tool for confirming what we already know. Today, we’re flipping that around and using AI to **question what we think we know** and explore ideas in ways we might not have considered.

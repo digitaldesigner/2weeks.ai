@@ -1,4 +1,6 @@
 # Our AI Journey
+<div class="tag"><span class="level-3">Advanced</span></div>
+
 Over the past two weeks, we’ve explored the many ways AI can be used as a powerful tool to enhance your everyday life. From answering questions and writing prompts to planning, decision-making, and fact-checking. By now hopefully you've built a strong foundation in AI-assisted thinking.
 
 This course has been designed not just to teach **how** to use AI, but to **change the way** you think about it — taking AI from a simple Q&A or text editing tool to a dynamic assistant capable of enhancing your own creativity, productivity, and learning.

@@ -1,4 +1,6 @@
-# Learning with AI 
+# Learning with AI
+<div class="tag"><span class="level-3">Advanced</span></div>
+
 AI isn’t just a handy editor — it can also be your personal tutor, adapting to your learning style, simplifying complex ideas, and even quizzing you!
 
 Unlike traditional learning — where you’re limited to one book or a pre-written course — AI lets you explore topics in a way that suits you. Whether you learn best through metaphors, examples, quizzes, or deep research, AI can tailor explanations to match your style. There are also no dumb questions, so if you get stuck on a topic... AI has infinite patience!

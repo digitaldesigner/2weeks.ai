@@ -1,4 +1,6 @@
 # Adding Content
+<div class="tag"><span class="level-2">Intermediate</span></div>
+
 To wrap up our first week, we’re diving into using AI with long-form content — rounding off our exploration of different input methods like text, voice, and images.
 
 # Uploading Files (Or Copy-Pasting)

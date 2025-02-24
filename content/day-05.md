@@ -1,8 +1,10 @@
 # Talking With AI
+<div class="tag"><span class="level-1">Beginner</span></div>
+
 We’ve done plenty of writing — now it’s time to start **talking**! Interacting with an AI through speech is a unique and sometimes uncanny experience, so get ready to question reality a little.
 
-<video class="light" playsinline autobuffer autoplay muted loop poster="./assets/video/voice.jpg"><source src="./assets/video/voice-chat-light.mp4" type="video/mp4"></video>
-<video class="dark" playsinline autobuffer autoplay muted loop poster="./assets/video/voice.jpg"><source src="./assets/video/voice-chat-dark.mp4" type="video/mp4"></video>
+<video class="light" playsinline autobuffer autoplay muted loop poster="./assets/video/voice.jpg"><source src="./assets/video/voice-orb-light.mp4" type="video/mp4"></video>
+<video class="dark" playsinline autobuffer autoplay muted loop poster="./assets/video/voice.jpg"><source src="./assets/video/voice-orb-dark.mp4" type="video/mp4"></video>
 
 ## Getting Started 🚀 
 Talking is simple, just follow these steps — and maybe give this article a read before jumping straight in.
