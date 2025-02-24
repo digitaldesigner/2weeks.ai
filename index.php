@@ -1,5 +1,5 @@
 <?php
-	define('version','?version=4.1.0');
+	define('version','?version=4.5.1');
 	function getMarkdownFilesContent($directory) {
 	    $files = glob($directory . '/*.md');
 	    $contentArray = [];
@@ -110,7 +110,7 @@ echo "
 	<script src="//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js" async=""></script>
-	<script src="assets/js/site.js<?=version?>"></script>
+	<script src="assets/js/site.min.js<?=version?>"></script>
 	<script src="assets/js/lazysizes.min.js" async=""></script>
 	<script src="assets/js/ls.unveilhooks.min.js" async=""></script>
 </body>

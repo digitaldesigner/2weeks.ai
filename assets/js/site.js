@@ -6,8 +6,8 @@ $(document).ready(function() {
     // Load tasks and check if "New" badge should be displayed
     function loadTasks() {
         $('#todo-list li.lesson').each(function(index, element) {
-            const isChecked = localStorage.getItem(`task-${index}`);
-            const firstSeenTimestamp = localStorage.getItem(`task-seen-${index}`);
+            const isChecked = localStorage.getItem('task-'+index);
+            const firstSeenTimestamp = localStorage.getItem('task-seen-' + index);
 
             // Check task completion status
             if (isChecked === 'true') {
@@ -19,7 +19,7 @@ $(document).ready(function() {
             if (!firstSeenTimestamp) {
                 // If there's no timestamp, store the current time as the first seen time
                 const now = Date.now();
-                localStorage.setItem(`task-seen-${index}`, now);
+                localStorage.setItem('task-seen-' + index, now);
             } else {
                 const timeElapsed = Date.now() - parseInt(firstSeenTimestamp, 10);
                 if (timeElapsed > badgeVisibleDuration) {
@@ -31,7 +31,7 @@ $(document).ready(function() {
 
     // Save the completion state of the task to localStorage
     function saveTaskState(index, isChecked) {
-        localStorage.setItem(`task-${index}`, isChecked);
+        localStorage.setItem('task-' + index, isChecked);
     }
     
     // Scroll to the next lesson
@@ -99,7 +99,7 @@ $(document).ready(function() {
         const formattedDiffInDays = diffInDays.toString().padStart(2, "0");
 
         // Load Content
-        const promptFile = `daily/prompt-${formattedDiffInDays}.md`;
+        const promptFile = 'daily/prompt-' + formattedDiffInDays + '.md';
         $.get(promptFile).done(function(markdownContent) {
           $('#prompt-number').html(diffInDays)
           var openLesson = $('li.expose');
