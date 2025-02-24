@@ -1,5 +1,5 @@
 <?php
-	define('version','?version=4.5.1');
+	define('version','?version=5.0.0');
 	function getMarkdownFilesContent($directory) {
 	    $files = glob($directory . '/*.md');
 	    $contentArray = [];

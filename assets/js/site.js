@@ -288,7 +288,18 @@ $(document).ready(function() {
       document.execCommand('copy');
       tempTextarea.remove();
       $(this).addClass('done');
-      window.open('chatgpt://');
+      
+      const chatgptAppUrl = 'chatgpt://chat?q=' + encodeURIComponent(textToCopy);
+      const chatgptWebUrl = 'https://chat.openai.com/?q=' + encodeURIComponent(textToCopy);
+      const startTime = Date.now();
+      const newWindow = window.open(chatgptAppUrl);
+      setTimeout(function() {
+          const elapsedTime = Date.now() - startTime;
+          if (elapsedTime < 1500) {
+              window.open(chatgptWebUrl, '_blank');
+          }
+      }, 1200);
+      
       fathom.trackEvent('gpt shortcut');
     });
     
