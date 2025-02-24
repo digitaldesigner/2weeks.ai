@@ -4,7 +4,7 @@ In our last lesson, we explored **Planning** — where we used AI to go beyond s
 If planning is about asking, *“How do I get from A to B?”*, then decision making is about asking, *“Should I take Path A or Path B?”*. The ideas is to use AI to make faster, smarter, and more objective decisions — removing guesswork and bias along the way.
 
 ## Can You Trust AI?
-Before we dive into today’s lesson, there’s an uncomfortable but important reality to acknowledge: AI gets **confused** —sometimes in subtle ways, and other times in completely ridiculous ways. Even the best AI tools can stumble over basic tasks:
+Before we dive into today’s lesson, there’s an uncomfortable but important reality to acknowledge: AI can get **confused** — sometimes in subtle ways, and other times in completely ridiculous ways. Even the best AI tools can stumble over basic tasks:
 
 <picture>
   <source srcset="./assets/images/confidently-incorrect-dark.png" media="(prefers-color-scheme:dark)">

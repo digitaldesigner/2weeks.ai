@@ -9,9 +9,9 @@ This course has been designed not just to teach **how** to use AI, but to **chan
 These lessons focused on understanding AI, crafting better prompts, and getting familiar with its capabilities.
 
 - **Getting Started** – We installed ChatGPT, explored features, and understood how AI works like a conversational search engine.
-- **Writing Effective Prompts** – Learned how to ask better questions, use follow-ups, and adjust responses for more clarity.
-- **Adding Context** – Understood how AI retains context within a chat and when to start a fresh conversation.
-- **Talking with AI (Voice Mode)** – Practiced voice-to-text interactions, learned how to adjust tone, and experimented with hands-free AI conversations.
+- **Writing Effective Prompts** – We learned how to ask better questions, use follow-ups, and adjust responses for more clarity.
+- **Adding Context** – We understood how AI retains context within a chat and when to start a fresh conversation.
+- **Talking with AI (Voice Mode)** – We practiced voice-to-text interactions, learned how to adjust tone, and experimented with hands-free AI conversations.
 
 ## Intermediate
 Here, you moved from basic interactions to using AI for real-world planning, problem-solving, and content creation.

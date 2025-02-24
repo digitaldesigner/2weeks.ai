@@ -8,7 +8,7 @@ Over the next two weeks, we'll dive into simple, bite-sized lessons — guiding 
 # What to Expect
 Each day, you’ll explore a new AI topic with fresh insights and hands-on ways to use AI beyond the basics. The lessons build on each other, gradually increasing in complexity — but there’s no rush! Move at your own pace, revisit topics, or skip ahead if something sparks your curiosity.
 
-By the end of the course, you’ll know **how** to use AI effectively, **when** it’s most useful, and — most importantly — how AI can enhance *your* work and daily life.
+By the end of the course, you’ll know **how** to use AI effectively, **when** it’s most useful, and — most importantly — how AI can enhance **your** work and daily life.
 
 Simply click on a lesson card to dive in, and **Mark as complete** when you’re done. Your progress is private, just for you. And once you complete all lessons, you’ll unlock a special reward! ⭐
 

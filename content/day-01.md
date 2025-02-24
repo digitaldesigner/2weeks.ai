@@ -22,7 +22,7 @@ AI apps are incredibly simple, usually just consisting of a text box where you c
 </picture>
 
 - `1` **App Menu** – This is where you’ll find all your previous conversations and access your settings. We’ll explore this later.
-- `2` **Chat Tools** – These let you manage the current chat, such as sharing or deleting it. The number refers to the AI model you're using, but you probably won’t need to adjust this.
+- `2` **Chat Tools** – Tapping here gives you options to manage the current chat, such as sharing or deleting it.
 - `3` **New or Temporary Chat** – In a new chat, this icon will enable you to switch between private (chats won't be saved) and normal mode. If you're already in a chat, this icon will let you start a new one. It’s a good idea to start a new chat whenever the topic moves on to something new.
 - `4` **Add** – Use this icon to add photos or files to provide extra context in a conversation. We’ll dive into this feature later on.
 - `5` **Message** – This is where you type your message, just like in Messenger or iMessage. Only here, you’re chatting with an AI.
