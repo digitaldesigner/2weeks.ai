@@ -10,7 +10,7 @@ To get started simply download the official ChatGPT app from OpenAI (watch out f
 
 <picture>
   <source srcset="./assets/images/icon-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/icon.png">
+  <img class="lazyload" data-src="./assets/images/icon.png" />
 </picture>
 
 ### App Tour
@@ -18,7 +18,7 @@ AI apps are incredibly simple, usually just consisting of a text box where you c
 
 <picture>
   <source srcset="./assets/images/app-tour-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/app-tour.png">
+  <img class="lazyload" data-src="./assets/images/app-tour.png" />
 </picture>
 
 - `1` **App Menu** – This is where you’ll find all your previous conversations and access your settings. We’ll explore this later.

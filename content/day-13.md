@@ -1,5 +1,5 @@
 # Beyond the Basics
-Over the past two weeks, you’ve discovered the power of AI — learning how to ask better questions, add context, plan, research, and challenge your own thinking. As you might imagine, we’ve only scratched the surface — fortunately the skills you’ve gained will help you adapt and experiment as AI capabilities continue to evolve.
+As you might imagine, we’ve only scratched the surface of what AI is capable of. Fortunately, the foundational skills you’ve gained during this course will help you adapt and experiment as you continue exploring AI tools.
 
 Today, we’re taking a quick tour of some fascinating AI applications we haven’t explored yet — things like storytelling, translation, parenting tips, and even therapy. Each of these could be an entire course on its own, but this lesson will give you a taste of what’s possible and some avenues to explore!
 
@@ -20,7 +20,7 @@ Or even ask AI to translate your own words into multiple languages at once:
 ## 🎙️ Live Voice Translation
 If you prefer speaking, AI can provide live translations using the voice tool. This is especially handy when traveling or chatting with someone who speaks another language. Here’s a demonstration of this in action:
 
-<div class="embed"><iframe src="https://www.youtube.com/embed/c2DFg53Zhvw?si=Uc_t5uplLp9yS9km" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="embed" data-video-id="c2DFg53Zhvw"></div>
 
 Or if you’re learning a language, AI can give feedback on your spoken messages, correct mistakes, and even suggest improvements!
 
@@ -31,7 +31,7 @@ By uploading images or photos you’ve taken, AI can analyze and extract text fo
 
 <picture>
   <source srcset="./assets/images/monkey-sign-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/monkey-sign.png">
+  <img class="lazyload" data-src="./assets/images/monkey-sign.png" />
 </picture>
 
 ***

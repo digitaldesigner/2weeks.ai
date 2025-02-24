@@ -19,14 +19,14 @@ You could also ask *“What’s your reasoning behind this answer?”*, or even 
 
 <picture>
   <source srcset="./assets/images/fake-news-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/fake-news.png">
+  <img class="lazyload" data-src="./assets/images/fake-news.png" />
 </picture>
 
 Clicking on the sources badge reveals what AI used to form its answer, helping you judge how reliable the information really is:
 
 <picture>
   <source srcset="./assets/images/sources-panel-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/sources-panel.png">
+  <img class="lazyload" data-src="./assets/images/sources-panel.png" />
 </picture>
 
 For peace of mind, ChatGPT generally pulls from reputable sources—government websites, educational institutions, mainstream news organizations, scientific and academic journals, and specialized resources for certain topics, like Investopedia for finance or historical archives for historical queries. 

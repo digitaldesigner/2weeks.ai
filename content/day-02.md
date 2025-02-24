@@ -25,7 +25,7 @@ Of course, this doesn't need to be about heavy topics! You can use the same appr
 
 <picture>
   <source srcset="./assets/images/follow-on-conversations-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/follow-on-conversations.png">
+  <img class="lazyload" data-src="./assets/images/follow-on-conversations.png" />
 </picture>
 
 You can interrupt a response at any time by hitting the ⏹️ stop button and sending a new message.

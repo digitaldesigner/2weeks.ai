@@ -1,11 +1,11 @@
 # Using Images
 AI isn’t just for text and voice — it can also analyze images and provide insights, making it a powerful tool for a wide range of tasks. While you may not use this feature every day, when you do, it’s pretty impressive!
 
-To add or upload an image, simply tap the plus (+) icon next to the message box. The options are similar across desktop and mobile AI tools.
+To add or upload an image, simply tap the plus `+` icon next to the message box. The options are similar across desktop and mobile AI tools.
 
 <picture>
   <source srcset="./assets/images/upload-action-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/upload-action.png">
+  <img class="lazyload" data-src="./assets/images/upload-action.png" />
 </picture>
 
 - 📷 **Camera** - Snap a picture with your camera
@@ -19,12 +19,12 @@ AI can analyze images almost as well as you can—and in some cases, even better
 
 Here are some real-world ways to use image uploads in your day-to-day life:
 
-### Decypher Confusing Instructions
+### Decipher Confusing Instructions
 Ever stared at a parking sign for way too long, trying to figure out if you’re about to get fined? AI can help! By uploading an image and adding relevant context—like the current day and time, and how long you plan to park — AI can quickly break it down for you:
 
 <picture>
   <source srcset="./assets/images/parking-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/parking.png">
+  <img class="lazyload" data-src="./assets/images/parking.png" />
 </picture>
 
 This technique works in many situations where instructions aren’t clear:
@@ -67,7 +67,7 @@ If you haven’t experimented with AI’s image capabilities yet, now’s the ti
 
 <picture>
   <source srcset="./assets/images/funny-description-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/funny-description.png">
+  <img class="lazyload" data-src="./assets/images/funny-description.png" />
 </picture>
 
 Other variations on this are to **roast your friends** — where you upload a group photo and ask AI for the most ridiculous captions. You could assign 1920s gangster names to old family pictures, or ask AI to write a diary entry from your pet’s perspective based on their expression.

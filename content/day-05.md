@@ -12,7 +12,7 @@ Talking is simple, just follow these steps — and maybe give this article a rea
 
 <picture>
   <source srcset="./assets/images/voice-location-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/voice-location.png">
+  <img class="lazyload" data-src="./assets/images/voice-location.png" />
 </picture>
 
 This will start a voice conversation instead of a written one, and you’ll be greeted by your AI assistant. If you’re unsure what to say, start with a simple **“hello.”**
@@ -40,7 +40,7 @@ You’ll notice how surprisingly human-like AI’s responses are — and you mig
 
 <picture>
   <source srcset="./assets/images/voice-settings-location-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/voice-settings-location.png">
+  <img class="lazyload" data-src="./assets/images/voice-settings-location.png" />
 </picture>
 
 # Today’s Task

@@ -17,24 +17,24 @@ You can install this site as an app using a handy bookmark option in your browse
 
 <picture>
   <source srcset="./assets/images/share-location-safari-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/share-location-safari.png">
+  <img class="lazyload" data-src="./assets/images/share-location-safari.png" />
 </picture>
 
 Or if you're in Chrome on Android or iPhone, tap the icon in the top-right corner:
 
 <picture>
   <source srcset="./assets/images/share-location-chrome-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/share-location-chrome.png">
+  <img class="lazyload" data-src="./assets/images/share-location-chrome.png" />
 </picture>
 
 Select **Add to Home Screen** to turn this site into an app on your home screen. This'll keep it asa handy reference when you need it:
 
 <picture>
   <source srcset="./assets/images/homescreen-location-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/homescreen-location.png">
+  <img class="lazyload" data-src="./assets/images/homescreen-location.png" />
 </picture>
 
 ***
 
-## Ready to Start?
+## Ready to Jump In?
 Mark this day as complete and we'll begin by installing ChatGPT!

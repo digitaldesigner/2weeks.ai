@@ -826,6 +826,16 @@ div.prompt .contents::after {
 .contents p img {
   width: 100%;
 }
+.contents img:-moz-broken {
+  opacity: 0;
+}
+.contents img.lazyload {
+  opacity: 0;
+  transition: all 0.2s ease-out;
+}
+.contents img.lazyloaded {
+  opacity: 1;
+}
 .contents strong {
   font-weight: 600;
   color: var(--charcoal-1000);
@@ -1053,6 +1063,10 @@ li.expose h1 {
 ul.training li.lesson .contents p:nth-child(2) {
   font-size: 16px;
   line-height: 28px;
+}
+ul.training li.lesson.expose .contents p:nth-child(2) {
+  font-size: 18px;
+  line-height: 32px;
 }
 @-webkit-keyframes spin-hue {
   0% {

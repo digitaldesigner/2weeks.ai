@@ -36,7 +36,7 @@ AI isn’t just great at breaking down complex topics — it can also help you f
 
 <picture>
   <source srcset="./assets/images/gen-z-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/gen-z.png">
+  <img class="lazyload" data-src="./assets/images/gen-z.png" />
 </picture>
 
 ## ✏️ Virtual Editor
@@ -59,7 +59,7 @@ Finally, if all of this feels a bit heavy for today — try uploading a photo an
 
 <picture>
   <source srcset="./assets/images/caption-dark.png" media="(prefers-color-scheme:dark)">
-  <img src="./assets/images/caption.png">
+  <img class="lazyload" data-src="./assets/images/caption.png" />
 </picture>
 
 <!-- Read time: 3 mins -->
