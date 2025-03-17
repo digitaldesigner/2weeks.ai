@@ -76,4 +76,4 @@ Other variations on this are to **roast your friends** — where you upload a gr
 
 Happy snapping!
 
-<!-- Read time: 4 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">4 min</span></div>

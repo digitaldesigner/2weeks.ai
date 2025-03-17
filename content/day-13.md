@@ -153,4 +153,4 @@ AI isn’t just a tool — it can be a creative partner, translator, tech assist
 
 The more you play, the more you’ll discover.
 
-<!-- Read time: 7 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">7 min</span></div>

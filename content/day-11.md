@@ -116,4 +116,4 @@ When you want to continue learning, go back to the same chat `2` — this way, A
   <img class="lazyload" data-src="./assets/images/learning-side-drawer.png" />
 </picture>
 
-<!-- Read time: 4 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">4 min</span></div>

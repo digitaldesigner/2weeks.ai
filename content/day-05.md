@@ -70,4 +70,4 @@ Voice-to-text has advanced significantly, and AI truly shines in this area. No n
 
 **Happy chatting!**
 
-<!-- Read time: 3 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">3 min</span></div>

@@ -69,4 +69,4 @@ Feel free to continue the conversation by asking follow-up questions like you wo
 For a bit of fun, follow-up with "Turn this into a poem".
 ```
 
-<!-- Read time: 2 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">2 min</span></div>

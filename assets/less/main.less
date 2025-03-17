@@ -101,6 +101,29 @@ div.loader {
   }
 }
 
+@keyframes float {
+	0% {
+		transform: translateX(-50%) translateY(0px);
+	}
+	50% {
+		transform: translateX(-50%) translateY(-10px);
+	}
+	100% {
+		transform: translateX(-50%) translateY(0px);
+	}
+}
+@-webkit-keyframes float {
+	0% {
+		transform: translateX(-50%) translateY(0px);
+	}
+	50% {
+		transform: translateX(-50%) translateY(10px);
+	}
+	100% {
+		transform: translateX(-50%) translateY(0px);
+	}
+}
+
 ul.training {
   padding:20% 5vw;
   display: flex;
@@ -148,6 +171,42 @@ div.prompt {
   gap:20px;
   padding:5px 0;
   height:100%;
+  
+  .open-prompt {
+    position:absolute;
+    bottom:15px;
+    left:50%;
+    transform:translateX(-50%) translateY(0);
+    background:var(--purple-500);
+    z-index:3; 
+    display:flex;
+    padding:4px;
+    border-radius:100px;
+    flex-direction:row;
+    gap:0;
+    box-shadow:0 0 10px 10px white;
+    animation: float 8s ease-in-out infinite;
+    transition:all 0.14s ease-out;
+    
+    span {
+      display:flex;
+      border-radius:20px;
+      font-size:13px;
+      font-weight:500;
+      padding:10px 8px 10px 12px;
+      color:white;
+      
+      &.time {
+        padding:10px;
+        background:darken(#d7aaff,16%);
+      }
+    }
+  }
+  &:hover {
+    .open-prompt {
+      bottom:30px;
+    }
+  }
   
   .new-badge,
   .locked-badge {
@@ -500,7 +559,9 @@ div.prompt {
 
 ul.training {
   li.completed:not(.expose){
-    .contents h1 {
+    
+    .open-prompt {
+      display:none;
     }
   }
 }
@@ -534,7 +595,8 @@ ul.training li.lesson.expose {
     opacity:1!important;
   }
   
-  .new-badge {
+  .new-badge,
+  .open-prompt {
     display:none;
   }
   
@@ -988,6 +1050,12 @@ ul.training li.lesson.expose .contents {
   ul.training li.lesson.intro .swipe,
   div.prompt.intro .swipe {
     display:flex;
+  }
+}
+
+@media (min-height: 800px) {
+  ul.training li.lesson .open-prompt.min-height {
+    display:none;
   }
 }
 

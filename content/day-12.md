@@ -77,4 +77,4 @@ By leveraging AI’s neutrality and its ability to analyze multiple sources simu
 
 Ultimately, the more you question and verify... the more useful AI becomes!
 
-<!-- Read time: 4 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">4 min</span></div>

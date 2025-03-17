@@ -300,6 +300,28 @@ div.loader.ready {
     transform: scale(1);
   }
 }
+@keyframes float {
+  0% {
+    transform: translateX(-50%) translateY(0px);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0px);
+  }
+}
+@-webkit-keyframes float {
+  0% {
+    transform: translateX(-50%) translateY(0px);
+  }
+  50% {
+    transform: translateX(-50%) translateY(10px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0px);
+  }
+}
 ul.training {
   padding: 20% 5vw;
   display: flex;
@@ -339,6 +361,41 @@ div.prompt {
   gap: 20px;
   padding: 5px 0;
   height: 100%;
+}
+ul.training li.lesson .open-prompt,
+div.prompt .open-prompt {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%) translateY(0);
+  background: var(--purple-500);
+  z-index: 3;
+  display: flex;
+  padding: 4px;
+  border-radius: 100px;
+  flex-direction: row;
+  gap: 0;
+  box-shadow: 0 0 10px 10px white;
+  animation: float 8s ease-in-out infinite;
+  transition: all 0.14s ease-out;
+}
+ul.training li.lesson .open-prompt span,
+div.prompt .open-prompt span {
+  display: flex;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 8px 10px 12px;
+  color: white;
+}
+ul.training li.lesson .open-prompt span.time,
+div.prompt .open-prompt span.time {
+  padding: 10px;
+  background: #b158ff;
+}
+ul.training li.lesson:hover .open-prompt,
+div.prompt:hover .open-prompt {
+  bottom: 30px;
 }
 ul.training li.lesson .new-badge,
 div.prompt .new-badge,
@@ -730,6 +787,9 @@ ul.training li.lesson.completed.refresh::before,
 div.prompt.completed.refresh::before {
   display: none;
 }
+ul.training li.completed:not(.expose) .open-prompt {
+  display: none;
+}
 ul.training.modal {
   overflow: hidden;
 }
@@ -756,7 +816,8 @@ ul.training li.lesson.expose ol,
 ul.training li.lesson.expose li {
   opacity: 1!important;
 }
-ul.training li.lesson.expose .new-badge {
+ul.training li.lesson.expose .new-badge,
+ul.training li.lesson.expose .open-prompt {
   display: none;
 }
 ul.training li.lesson.expose a.expander {
@@ -1213,6 +1274,11 @@ ul.training li.lesson.expose .contents p:nth-child(2) {
   ul.training li.lesson.intro .swipe,
   div.prompt.intro .swipe {
     display: flex;
+  }
+}
+@media (min-height: 800px) {
+  ul.training li.lesson .open-prompt.min-height {
+    display: none;
   }
 }
 @media only screen and (min-width: 600px) {

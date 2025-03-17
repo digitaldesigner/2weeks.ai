@@ -1,5 +1,5 @@
 <?php
-	define('version','?version=5.1.0');
+	define('version','?version=6.0.0');
 	function getMarkdownFilesContent($directory) {
 	    $files = glob($directory . '/*.md');
 	    $contentArray = [];
@@ -36,14 +36,13 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/appicon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="stylesheet" href="assets/css/main.min.css<?=version?>" type="text/css" />
+	<link rel="stylesheet" href="assets/css/main.mini.css<?=version?>" type="text/css" />
 	<link rel="stylesheet" href="assets/css/dark.css<?=version?>" type="text/css" media="(prefers-color-scheme: dark)" />
 	<meta property="og:url" content="https://2weeks.ai/">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="2 Weeks AI">
 	<meta property="og:description" content="“A beginner-friendly guide for AI newcomers — and a power-up for enthusiasts!”">
 	<meta property="og:image" content="https://2weeks.ai/assets/images/cover.png">
-	<script src="https://cdn.usefathom.com/script.js" data-spa="auto" data-site="QGGXGFCW" defer></script>
 </head>
 
 <body>

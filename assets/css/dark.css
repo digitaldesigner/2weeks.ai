@@ -44,6 +44,10 @@ ul.training li.lesson .header h3,
 div.prompt .header h3 {
   color: var(--clay-300);
 }
+ul.training li.lesson .open-prompt,
+div.prompt .open-prompt {
+  box-shadow: 0 0 10px 10px var(--base-dark);
+}
 ul.training li.lesson .contents.overflow::after,
 div.prompt .contents.overflow::after {
   background: #000000;

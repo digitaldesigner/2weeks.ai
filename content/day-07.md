@@ -87,4 +87,4 @@ If you haven’t already, pick one long-form piece of content that you’ve writ
 If you have a paid version of ChatGPT, simply upload your doc instead of copy-pasting! This is powerful for questioning spreadsheets or complicated formats, like presentations or PDFs.
 ```
 
-<!-- Read time: 3 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">3 min</span></div>

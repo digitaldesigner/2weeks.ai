@@ -48,4 +48,4 @@ By questioning our own assumptions, AI can help us uncover hidden biases in how 
 A little intense? Try asking, “If Napoleon had access to email, what would his inbox look like?”
 ```
 
-<!-- Read time: 3 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">3 min</span></div>

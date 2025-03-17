@@ -72,4 +72,4 @@ Roles are only limited by your imagination, so you can have some fun:
 - 🫠 "You're a conspiracy theorist. Tell me something about coffee the mainstream media don't want us to know!"
 - 🤖 "You're a corporate buzzword generator. Describe me."
 
-<!-- Read time: 4 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">4 min</span></div>

@@ -64,4 +64,4 @@ Finally, if all of this feels a bit heavy for today — try uploading a photo an
   <img class="lazyload" data-src="./assets/images/caption.png" />
 </picture>
 
-<!-- Read time: 3 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">3 min</span></div>

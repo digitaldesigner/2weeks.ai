@@ -40,3 +40,5 @@ Select **Add to Home Screen** to turn this site into an app on your home screen.
 
 ## Ready to Jump In?
 Mark this day as complete and we'll begin by installing ChatGPT!
+
+<div class="open-prompt min-height"><span>Read</span><span class="time">2 min</span></div>

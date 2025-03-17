@@ -65,4 +65,4 @@ Finally, AI isn’t just useful for making future decisions — it can also help
 Remember to treat AI answers the same way you would advice from a friend — helpful, but not always 100% reliable. If in doubt, ask: "How confident are you that this information is correct?"
 ```
 
-<!-- Read time: 3 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">3 min</span></div>

@@ -58,4 +58,4 @@ Whether you use it to brainstorm ideas, learn something new, or simply have a bi
   <img class="lazyload" data-src="./assets/images/daily-prompt.png" />
 </picture>
 
-<!-- Read time: 4 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">4 min</span></div>

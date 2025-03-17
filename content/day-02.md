@@ -59,4 +59,4 @@ As you get more comfortable with AI, you’ll start to refine your prompts to ge
 Try prompting "What should I do today?"
 ```
 
-<!-- Read time: 3 mins -->
+<div class="open-prompt"><span>Read</span><span class="time">3 min</span></div>
