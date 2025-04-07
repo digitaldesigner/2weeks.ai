@@ -3,6 +3,8 @@
 
 To use AI, you’ll need an AI app. There are many available, but the easiest and most popular is **ChatGPT** by OpenAI. You might have also heard of Gemini by Google or Meta AI.
 
+<div class="ml-embedded" data-form="GQXP4U"></div>
+
 Think of AI tools like search engines such as Google — easy to use, with a few good options to choose from. While they have some differences, they all work in a similar way: you ask a question into a chat interface, and the AI will provide helpful answers.
 
 ## Download ChatGPT

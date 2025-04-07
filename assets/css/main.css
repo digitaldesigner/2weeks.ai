@@ -858,6 +858,83 @@ ul.training li.lesson.expose .contents {
 ul.training li.lesson.expose .contents::after {
   display: none;
 }
+ul.training li.lesson.expose .ml-embedded {
+  display: block!important;
+}
+ul.training li.lesson.expose .ml-form-embedWrapper {
+  background-color: var(--purple-500) !important;
+  border-radius: 15px!important;
+}
+ul.training li.lesson.expose .ml-form-embedWrapper .ml-form-embedBody {
+  padding: 35px 40px 40px 40px!important;
+}
+ul.training li.lesson.expose .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+  margin-bottom: 40px!important;
+}
+ul.training li.lesson.expose .daily {
+  background: var(--purple-500);
+  padding: 35px 40px 40px 40px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  display: block;
+}
+ul.training li.lesson.expose .daily form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ul.training li.lesson.expose .daily form label {
+  background: transparent;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+ul.training li.lesson.expose .daily form label p {
+  color: white;
+  font-size: 16px;
+  cursor: text;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+ul.training li.lesson.expose .daily form input,
+ul.training li.lesson.expose .daily form button {
+  display: flex;
+  min-width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 15px;
+  height: 50px;
+  text-align: center;
+}
+ul.training li.lesson.expose .daily form input {
+  padding: 0 15px;
+  border: 0;
+  box-shadow: inset 0 0 0 1px #3d07a2;
+  transition: all 0.15s ease-out;
+  color: var(--charcoal-1000);
+}
+ul.training li.lesson.expose .daily form input::placeholder {
+  color: var(--charcoal-600);
+}
+ul.training li.lesson.expose .daily form input:focus {
+  box-shadow: inset 0 0 0 1px var(--purple-500), 0 0 0 2px #ffff00;
+}
+ul.training li.lesson.expose .daily form button {
+  background: #3d07a2;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  height: 60px;
+}
 ul.training li.lesson.expose.completed {
   box-shadow: 0 0 0 2px var(--green-500);
 }

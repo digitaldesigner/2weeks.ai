@@ -356,6 +356,10 @@ $(document).ready(function() {
       });
     });
     
+    $('.daily-subscribe').submit(function(){
+      alert('ahoy');
+    });
+    
     $('#loader').addClass('ready');
 
 });

@@ -36,13 +36,20 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/appicon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="stylesheet" href="assets/css/main.mini.css<?=version?>" type="text/css" />
+	<link rel="stylesheet" href="assets/css/main.css<?=version?>" type="text/css" />
 	<link rel="stylesheet" href="assets/css/dark.css<?=version?>" type="text/css" media="(prefers-color-scheme: dark)" />
 	<meta property="og:url" content="https://2weeks.ai/">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="2 Weeks AI">
 	<meta property="og:description" content="“A beginner-friendly guide for AI newcomers — and a power-up for enthusiasts!”">
 	<meta property="og:image" content="https://2weeks.ai/assets/images/cover.png">
+	<script>
+	    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+	    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+	    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+	    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+	    ml('account', '1435408');
+	</script>
 </head>
 
 <body>
@@ -109,7 +116,7 @@ echo "
 	<script src="//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js" async=""></script>
-	<script src="assets/js/site.min.js<?=version?>"></script>
+	<script src="assets/js/site.js<?=version?>"></script>
 	<script src="assets/js/lazysizes.min.js" async=""></script>
 	<script src="assets/js/ls.unveilhooks.min.js" async=""></script>
 </body>
