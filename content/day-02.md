@@ -60,5 +60,3 @@ Try prompting "What should I do today?"
 ```
 
 <div class="open-prompt"><span>Read</span><span class="time">3 min</span></div>
-
-<div class="ml-embedded" data-form="GQXP4U"></div>

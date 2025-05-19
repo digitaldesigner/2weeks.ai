@@ -858,19 +858,6 @@ ul.training li.lesson.expose .contents {
 ul.training li.lesson.expose .contents::after {
   display: none;
 }
-ul.training li.lesson.expose .ml-embedded {
-  display: block!important;
-}
-ul.training li.lesson.expose .ml-form-embedWrapper {
-  background-color: var(--purple-500) !important;
-  border-radius: 15px!important;
-}
-ul.training li.lesson.expose .ml-form-embedWrapper .ml-form-embedBody {
-  padding: 35px 40px 40px 40px!important;
-}
-ul.training li.lesson.expose .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
-  margin-bottom: 40px!important;
-}
 ul.training li.lesson.expose .daily {
   background: var(--purple-500);
   padding: 35px 40px 40px 40px;
